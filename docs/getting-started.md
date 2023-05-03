@@ -501,7 +501,7 @@ Address: 19yp497RPiuWwsNUWp9cHWfbWUupHsRQLE
 
 You will see the address of your wallet instead of `19yp497RPiuWwsNUWp9cHWfbWUupHsRQLE`. This address is how you and others can interact with your wallet. If you need to see your address again, you can with the `address` command.
 
-We will need some test tokens `tKoin` to interact with the network. Follow the [Using the Discord Faucet](./using-the-faucet) tutorial to get 100 `tKoin`.
+We will need some test tokens `tKoin` to interact with the network. Follow the [Using the Discord Faucet](/M0/using-the-faucet) tutorial to get 100 `tKoin`.
 
 Once succesful you can query your balance.
 
