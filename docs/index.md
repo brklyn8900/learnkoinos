@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Learn Koinos!"
+  name: "Learn Koinos!!!!!!!!!!!!!!!!!!!!!"
   text: "Build on the world's first free-to-use blockchain, Koinos."
   actions:
     - theme: brand
