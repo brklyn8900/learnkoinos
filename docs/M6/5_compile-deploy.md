@@ -1,12 +1,13 @@
 # Compile the Token Project
 
-___Note: The commands available for this launcher are located in the package.json file.___
+**_Note: The commands available for this launcher are located in the package.json file._**
 
 From the `/contracts` folder, run the following command to build your contract.
 
 ```
 yarn token:build
 ```
+
 You should get a response that looks similar to this:
 
 ```
@@ -23,8 +24,7 @@ $ asc contracts/token/build/index.ts --config contracts/token/asconfig.json --us
 ✨  Done in 5.89s.
 ```
 
-If all is well, then you've just compiled your token contract. 
-
+If all is well, then you've just compiled your token contract.
 
 ### Step 4: Deploy your Token Project
 
@@ -35,6 +35,7 @@ Since we already setup our `.env` file earlier, we simply need to execute the fo
 ```
 yarn token:deploy
 ```
+
 You should get a response that looks similar to this:
 
 ```
@@ -56,5 +57,4 @@ TypeError: Cannot read properties of undefined (reading '0')
 
 If all is well, then you've just deployed your token contract to the address you've entered previously in the `_TOKEN_CONTRACT_ID` field. You can register the token in your `koinos-cli` wallet and begin to interact with it. You may also use [Koinos Blocks](http://koinosblocks.com) to interact with your token. Just search the `_TOKEN_CONTRACT_ID` in the search field of Koinos Blocks.
 
-For more guidance on interacting, see our previous lesson on [Interacting With Your Smart Contract](/M1/8_interacting.md)
-
+For more guidance on interacting, see our previous lesson on [Interacting With Your Smart Contract](/M1/5_interacting.md)
