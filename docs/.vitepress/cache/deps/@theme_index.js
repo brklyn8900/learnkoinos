@@ -1,25 +1,25 @@
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 
 // node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default3 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default4 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default5 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default6 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default7 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default8 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default9 } from "/Users/ron/devstuff/projects/websites/learnkoinos.xyz/testvitepress/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default3 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default4 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default5 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default6 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default7 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default8 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default9 } from "/Users/motoengineer/development/projects/learnkoinos/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 var theme = {
   Layout,
   enhanceApp: ({ app }) => {
