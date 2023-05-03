@@ -8,19 +8,25 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /getting-started
+      link: /M0/koinos_introduction.md
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
 
 features:
-  - title: Smart Contract
-    details: Create your first Koinos smart contract in miunutes
-    link: /getting-started
-  - title: Testnet Tokens
-    details: Learn how to get some testnet tokens on Discord
-    link: /using-the-faucet.md
-  - title: Koinos Whitepaper
-    details: Read the Koinos whitepaper and join the revolution
-    link: https://koinos.io/unified-whitepaper
+  - title: Developers Start here
+    details: Install the SDK and start building on Koinos Today!
+    link: /landing/dev.md
+
+  - title: Launching a Koinos Mining Node
+    details: Fire up a Mining Node And Begin Earning $KOIN!
+    link: /landing/mining.md
+
+  - title: Launch your NFT Collection On Koinos!
+    details: 
+    link: /landing/nft.md
+
+
+
+
 ---
