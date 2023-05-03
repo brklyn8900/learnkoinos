@@ -1,0 +1,9 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-button-brand-hover-border: gray;
+  --vp-button-brand-border: #747bff;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: #9a9ef5;
+}
