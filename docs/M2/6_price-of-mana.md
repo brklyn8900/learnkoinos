@@ -15,7 +15,7 @@ dApps can find a plethora of other ways to monetize their user base. We see exam
 - Linktree offers users free link pages, but monetizes through additional link features.
 - Spotify offers free music, but monetizes through Spotify Premium where you can download and listen off line and ad free.
 - Linkedin offers free connectivity, but monetizes to get your messages ahead of everyone else’s.
-- Tinder offers free swipes, but monetizes by offering unlimited swipes in their premium service.
+- Tinder offers limited free swipes, but monetizes by offering unlimited swipes in their premium service.
 - eBay offers free listings, and you only pay if your item sells.
 - Imagine these services were all powered by web3 instead and what benefits web3 could offer, just by providing free access.
 

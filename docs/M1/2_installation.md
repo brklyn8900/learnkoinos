@@ -1,12 +1,13 @@
-# Using Koinos-CLI Wallet
+# Installing Koinos-CLI
 
-[To download the  `koinos-cli` click here](https://github.com/koinos/koinos-cli).
+[To download `koinos-cli` visit the github repo here](https://github.com/koinos/koinos-cli).
 
-On the right side is a section called `Releases`. As of this writing, the current version is `v2.0.0`. Click on the version number and you will be brought to the download page where you can select the binary for your specific system at the bottom of the page.
+On the right side is a section called `Releases` where you will find the downloadable binarys to run the application. As of this writing, the current version is `v2.0.0`. Clicking on the version number will bring you to the download page where you can grab the binary for your specific operating system. Optionally, some users may want to view the source code and compile it on their own.
 
-You may also download the source code and build the file using the `go compiler`.
 
-Once you downloaded the file, unzip it and open the folder. There is a hidden file called `.koinosrc`. If you don't see it, make sure your OS shows hidden files. Open this file in your preferred editor, it will appear similar to this:
+Once the binary for your machine is downloaded, open the compressed folder and extract the contents to your prefered location. __Within this folder is a hidden file called `.koinosrc`.__ 
+
+If you don't see it, make sure your OS shows hidden files. Open `.koinosrc` in your preferred editor and you will see the following contents:
 
 ```
 connect https://api.koinos.io/
@@ -18,13 +19,12 @@ register claim 18zw3ZokdfHtudzaWAUnU4tUvKzKiJeN76
 register resources 1HGN9h47CzoFwU2bQZwe6BYoX4TM6pXc4b
 register governance 19qj51eTbSFJYU7ZagudkpxPgNSzPMfdPX
 ```
-The first command connects you to the ___main net RPC node___ provided by Koinos Group. This is the official API and it is currently free. In the future, this API may not be free and you may need to edit the `.koinosrc` file to change the RPC end point.
 
-If you are working on ___test net___ change the link to
-```
-https://harbinger-api.koinos.io
-```
-___Pro tip: Create two folders for `koinos-cli`! One with a `.koinosrc` file specific for test net and another for main net! For your convenience, here are the contents of the `.koinosrc` file that is specific to test net.___
+By default, the `.koinosrc` file automatically connects `koinos-cli` to the Koinos Main Net. 
+
+The `connect` command connects you to the ___main net RPC node___ provided by Koinos Group. This is the official API and it is currently free. In the future, this API may not be free and you may need to edit the `.koinosrc` file to change the RPC end point.
+
+If you are working on ___The Harbinger Test Net___ we suggest you replace the entire contents of your `.koinosrc` file with the RPC end oint and system level samrt contracts specific to the Harbinger Test Net. To do this you can replace everything with the following information:
 
 ```
 connect https://harbinger-api.koinos.io/
@@ -34,28 +34,33 @@ register pob 198RuEouhgiiaQm7uGfaXS6jqZr6g6nyoR
 register name_service 1AM1c73tDNTc24KYqYvSHmoZ2C7oe4DZhh
 register resources 1BXi4SX4jjbaLzcRbmRKtpMQbQmFYnmX9Z
 register governance 147aWsRsveXK4jwz5bdLumJv3yfF95woSc
-
 ```
 
-The next set of commands `register` and `register_token` pulls in system level smart contracts that you normally interact with through the `koinos-cli`. You can customize this as you use the `koinos-cli` more to fit your needs.
+___💡 Pro tip: Create two folders for `koinos-cli`! One with a `.koinosrc` file specific for test net and another for main net!___
 
-The argument passed to `register` can be any name you wish, it does not impact the entry points of the smart contract. 
-  
+As you become more familiar with using `koinos-cli` you can modify the `.koinosrc` file to suit your needs by adding additional contracts that you use often. We'll go over each of these commands in this module.
+
 
 ## Starting the `koinos-cli` wallet.
 
-Regardless if you are on test net or main net, the remaining portions of this guide remain the same.
+### Windows Users:
 
-To start the wallet, run the following command from the directory where your `koinos-cli` executable/binary file is located:
+Run the executable `koinos-cli.exe`
+
+### Mac and Linus Users:
+
+Open your terminal in the directory of your `koinos-cli` binary and run the following command:
 
 ```
 ./koinos-cli
 ```
- To see a list of commands that you can call, use the following command
+The CLI will automatically use the `.koinosrc` file to connect to either test net or main net, then preload the listed smart contracts.
+
+To see a list of commands that you can call, use the following command
 ```
 list
 ``` 
-The output should be something similar to below. Be aware, if you register additional contracts in the `.koinosrc` file or remove some, this list may appear differently: 
+The output should be something similar to below. Be aware, if you register additional contracts in the `.koinosrc` file or removed some, this list may appear differently: 
 
 ```
 🔐 > list
@@ -126,4 +131,5 @@ Usage: create <filename:file> [password:string]
 
 ```
 In this case, to use the command `create`, you need two additional arguments, one is the name of the file that contains the wallet information, and the password to encrypt the wallet file.
-  
+
+Next, we'll create a new wallet.

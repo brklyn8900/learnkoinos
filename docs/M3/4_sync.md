@@ -21,3 +21,5 @@ docker compose --profile all down
 ```
 If you are not sure if your node is sync'd or not, just check the `koinos-chain-1` log and see if it matches the latest block found at [Koinos Blocks](http://koinosblocks.com).
 
+
+___Note: For Windows users, `docker compose` may not work. Instead, try `docker-compose`___

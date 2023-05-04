@@ -118,27 +118,14 @@ export default defineConfig({
         ],
       },
       {
-        text: "MODULE 6: LAUNCHING A TOKEN WITH THE koinos-contracts-as",
+        text: "MODULE 6: LAUNCH A TOKEN WITH THE koinos-sdk-as-cli",
         collapsed: true,
         items: [
           { text: "1. Introduction", link: "/M6/1_introduction.md" },
-          {
-            text: "2. Clone the Starter Contract",
-            link: "/M6/2_starter-contract.md",
-          },
-          { text: "3. Setting up The Contract", link: "/M6/3_setup.md" },
-          { text: "4. Modify Contract", link: "/M6/4_modify.md" },
-          { text: "5. Compile and Deploy", link: "/M6/5_compile-deploy.md" },
-        ],
-      },
-      {
-        text: "MODULE 5: LAUNCH A TOKEN WITH THE koinos-sdk-as-cli",
-        collapsed: true,
-        items: [
-          { text: "1. Introduction", link: "/L2/x.md" },
-          { text: "2. Clone the Starter Contract", link: "/" },
-          { text: "3. Modify The Contract", link: "/L2/3_modify-contract.md" },
-          { text: "4. Compile and Deploy", link: "" },
+          { text: "2. Clone the Starter Contract", link: "/M6/2_init-setup.md" },
+          { text: "3. Modify The Contract", link: "/M6/3_modify.md" },
+          { text: "4. Compile and Deploy", link: "/M6/4_compile.md" },
+          { text: "5. Mint", link: "/M6/5_mint.md" },
         ],
       },
     ],

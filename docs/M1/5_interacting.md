@@ -1,29 +1,46 @@
-Once you have the `Koinos CLI` installed, create a new wallet using the following command:
-```
-🔐 > create my.wallet azerty
-```
-Here, we created a new wallet called `my.wallet` and it is encrypted with the password `azerty`.
+# Interacting with Smart Contracts
 
-You should see output similar to this:
+Believe it or not, you've already interacted with a smart contract! The $KOIN token is a system level smart contract that was pre-registered to the `koino-cli` in the `.koinosrc` file!
 
-```
+In this chapter, we will be reviewing how to register new contracts and what you should expect when doing so.  The typical process is:
 
-🔐 > create my.wallet azerty
-Created and opened new wallet: my.wallet
-Address: 19yp497RPiuWwsNUWp9cHWfbWUupHsRQLE
+1. Collect the wallet address for the smart contract you wish to interact with.
+2. Register the smart contract with a user defined name.
+3. Call the commands begining with the user defined name.
 
-```
-The file `my.wallet` will be generated automatically in the directory where `.koinos-cli` was executed.
+## Collect the wallet address for the Smart Contract
 
-You may also use the command `generate` which will display the address and private key, but it will not automatically save the wallet information, you will need to follow up with the import command. If you need to see your address again, you can with the `address` command.
+When interacting with a new contract address, PLEASE BE SURE THAT YOU TRUST THIS CONTRACT FIRST! Interacting with a contract that you do not trust can result in lost of funds. We strongly suggest you use a `smart wallet` to handle interacting with unknown smart contracts! OR follow our Pro Tip below: 
 
-If you are just getting started with Koinos and are trying out our test net, you can grab some free `tKOIN` to interact with the network. Follow the [Using the Discord Faucet](/M0/using-the-faucet) tutorial to get 100 `tKoin`.
 
-Once you get your `tKOIN` from the fountain,  you can query your balance with the `koin.balance_of` command which will display your new balance of 100 `tKOIN`. While it appears as `KOIN`, be assured that it is actually `tKOIN` unless you are connected to the main net RPC and have bought real `KOIN` from an exchange.
+___💡 Pro tip: ALWAYS generate a new wallet and supply it with the minimum number of $KOIN tokens that you need to complete the transaction you wish. For example, if you are interacting with a new NFT contract that cost 100 $KOIN, create a new wallet and send 100 $KOIN + some extra for the Mana cost___
+
+## Register the Smart Contract
+
+In this example, we will be interacting with the Koinos Acccount Protocol's namepsace contract on the `Harbinger Test Net`. The contract address is `1H3k4zttAjF7qfTqfmKZ4ZCdUL3pRdGnpG`. To register the contract, use the following command:
 
 ```
-🔓 > koin.balance_of
-100 KOIN
+🔓 > register namespace 1H3k4zttAjF7qfTqfmKZ4ZCdUL3pRdGnpG
 ```
 
-Now that we have some `tKOIN`, lets upload our smart contract.
+You will notice that this is the exact same command located in your `.koinosrc` file! If your register is successful, you will recieve the following response:
+
+```
+Contract 'namespace' at address 1H3k4zttAjF7qfTqfmKZ4ZCdUL3pRdGnpG registered
+```
+
+The contract name `namespace` may be anything you wish and has nothing to do with the contract itself. To see what commands are available with this smart contract, use the `list` command and you should see a full list of available commands, including the new contract which you just registered. It will look something like this:
+
+```
+...
+namespace.set_metadata                    - Set contract metadata
+namespace.set_royalties                   - Unsupported
+namespace.symbol                          - Returns the token's symbol
+namespace.total_supply                    - Gets the total number of minted tokens
+namespace.transfer                        - Transfer ownership of a name or TLA
+namespace.transfer_ownership              - Transfer ownership of the contract
+namespace.uri                             - Returns the token's uri
+...
+```
+
+You may now use the `--help` flag on any of these commands to learn thier usage. This process will apply to any smart contract address.
