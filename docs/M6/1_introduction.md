@@ -1,4 +1,4 @@
-# Launching an new Token collection
+# Launching a new token collection
 
 This guide allows users to manually launch a new Token based on current KCS-1 (Koinos Contract Standard) for Tokens.
 

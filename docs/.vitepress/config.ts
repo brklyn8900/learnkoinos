@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Documentation", link: "/getting-started" },
+      { text: "Support This Project", link: "/support" },
     ],
 
     sidebar: [
@@ -126,6 +126,20 @@ export default defineConfig({
           { text: "3. Modify The Contract", link: "/M6/3_modify.md" },
           { text: "4. Compile and Deploy", link: "/M6/4_compile.md" },
           { text: "5. Mint", link: "/M6/5_mint.md" },
+        ],
+      },
+      {
+        text: "MODULE 7: LAUNCH A DAPP IN 7 DAYS",
+        collapsed: true,
+        items: [
+          { text: "Introduction", link: "/M7/1_introduction.md" },
+          { text: "Phase 1.0 - Plan", link: "/M7/2_phase1_planning.md" },
+          { text: "Phase 1.1 - Architect", link: "/M7/3_phase1_architecture.md" },
+          { text: "Phase 2.0 - Build Front End", link: "/M7/4_phase2_building_frontend.md" },
+          { text: "Phase 2.1 - Build Middleware", link: "/M7/5_phase2_building_middleware.md" },
+          { text: "Phase 2.2 - Build Smart Contracts", link: "/M7/6_phase2_building_smartcontract.md" },
+          { text: "Phase 3.0 - Deploy", link: "/M7/7_phase3_deployment.md" },
+          { text: "8. How Can We Help You Launch Your dApp?", link: "/M7/8_help.md" },
         ],
       },
     ],
