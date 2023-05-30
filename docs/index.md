@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Learn Koinos!"
-  text: "Build on the world's first free-to-use blockchain, Koinos."
+  text: "And build on the world's first free-to-use blockchain!"
   actions:
     - theme: brand
       text: Get Started
@@ -23,7 +23,7 @@ features:
     link: /landing/mining.md
 
   - title: Launch your NFT Collection On Koinos!
-    details: 
+    details: Build an NFT collection contract and sell it on Kollections!
     link: /landing/nft.md
 
 

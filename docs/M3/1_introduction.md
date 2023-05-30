@@ -19,14 +19,14 @@
 
 - Docker 
 - git
-- koinos-cli OR 
-- Kondor Wallet & Koinosblocks.com
 
 ### Other Dependencies
 - $KOIN to burn
+- koinos-cli or
+- koinosblocks.com & Kondor Wallet
 
 To download Docker, please follow the specific instructions for you machine through [Docker's website](https://www.docker.com/products/docker-desktop/). 
 
 To download git, see [git's install website](https://github.com/git-guides/install-git).
   
-
+This guide assumes you have already installed your dependencies.

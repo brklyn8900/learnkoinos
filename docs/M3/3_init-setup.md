@@ -1,13 +1,16 @@
 
 # STEP 2: Set up the environment
 
-### config file setup
+## Config file setup
 Inside your koinos directory, is a file called `config-example`.  Make a copy of this file and rename it to `config` using the following command:
 ```
 cp -r config-example config
 ```
+___If you are using windows, you may choose to do all of these steps manually through your GUI.___
 
-You will now need to edit the config file using your preferred editor, which can be as simple as `notepad` for windows, `nano` for mac or linux. For this example, we'll be using `nano` editor. To edit the config file for mac or linux, use the following command:
+You will now need to edit the config file using your preferred editor. For windows, this can be notepad, for Mac or Linux, we will be using `nano` editor.
+
+To edit the config file for mac or linux, use the following command:
 ```
 nano config
 ```
@@ -28,7 +31,7 @@ to
 private-key-file:private.key
 ```
 
-### .env file setup
+## .env file setup
 Also inside your koinos directory, is a file called `env.example`.  Make a copy of this file and rename it to `.env` using the following command:
 
 ```

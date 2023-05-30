@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Documentation", link: "/getting-started" },
+      { text: "Support This Project", link: "/support" },
     ],
 
     sidebar: [
@@ -118,27 +118,28 @@ export default defineConfig({
         ],
       },
       {
-        text: "MODULE 6: LAUNCHING A TOKEN WITH THE koinos-contracts-as",
+        text: "MODULE 6: LAUNCH A TOKEN WITH THE koinos-sdk-as-cli",
         collapsed: true,
         items: [
           { text: "1. Introduction", link: "/M6/1_introduction.md" },
-          {
-            text: "2. Clone the Starter Contract",
-            link: "/M6/2_starter-contract.md",
-          },
-          { text: "3. Setting up The Contract", link: "/M6/3_setup.md" },
-          { text: "4. Modify Contract", link: "/M6/4_modify.md" },
-          { text: "5. Compile and Deploy", link: "/M6/5_compile-deploy.md" },
+          { text: "2. Clone the Starter Contract", link: "/M6/2_init-setup.md" },
+          { text: "3. Modify The Contract", link: "/M6/3_modify.md" },
+          { text: "4. Compile and Deploy", link: "/M6/4_compile.md" },
+          { text: "5. Mint", link: "/M6/5_mint.md" },
         ],
       },
       {
-        text: "MODULE 5: LAUNCH A TOKEN WITH THE koinos-sdk-as-cli",
+        text: "MODULE 7: LAUNCH A DAPP IN 7 DAYS",
         collapsed: true,
         items: [
-          { text: "1. Introduction", link: "/L2/x.md" },
-          { text: "2. Clone the Starter Contract", link: "/" },
-          { text: "3. Modify The Contract", link: "/L2/3_modify-contract.md" },
-          { text: "4. Compile and Deploy", link: "" },
+          { text: "Introduction", link: "/M7/1_introduction.md" },
+          { text: "Phase 1.0 - Plan", link: "/M7/2_phase1_planning.md" },
+          { text: "Phase 1.1 - Architect", link: "/M7/3_phase1_architecture.md" },
+          { text: "Phase 2.0 - Build Front End", link: "/M7/4_phase2_building_frontend.md" },
+          { text: "Phase 2.1 - Build Middleware", link: "/M7/5_phase2_building_middleware.md" },
+          { text: "Phase 2.2 - Build Smart Contracts", link: "/M7/6_phase2_building_smartcontract.md" },
+          { text: "Phase 3.0 - Deploy", link: "/M7/7_phase3_deployment.md" },
+          { text: "8. How Can We Help You Launch Your dApp?", link: "/M7/8_help.md" },
         ],
       },
     ],
