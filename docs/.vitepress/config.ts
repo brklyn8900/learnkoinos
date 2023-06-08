@@ -20,10 +20,7 @@ export default defineConfig({
           { text: "Terminology", link: "/M0/koinos_terminology.md" },
           { text: "Koinos Nodes", link: "/M0/koinos_nodes.md" },
           { text: "Proof of Burn", link: "/M0/koinos_pob.md" },
-          {
-            text: "Calculating Block Reward",
-            link: "/M0/koinos_block-reward.md",
-          },
+          { text: "Calculating Block Reward", link: "/M0/koinos_block-reward.md"},
           { text: "Using the Faucet", link: "/M0/using-the-faucet.md" },
         ],
       },
@@ -51,10 +48,7 @@ export default defineConfig({
           { text: "3. Accessing Mana", link: "/M2/3_access-mana.md" },
           { text: "4. Mana Sharing ", link: "/M2/4_mana-sharing.md" },
           { text: "5. Recharging Mana (free)", link: "/M2/5_recharge.md" },
-          {
-            text: "6. The Intuitive Value of Mana ",
-            link: "/M2/6_price-of-mana.md",
-          },
+          { text: "6. The Intuitive Value of Mana ", link: "/M2/6_price-of-mana.md" },
           { text: "7. RC Limits", link: "/M2/7_rclimit.md" },
         ],
       },
@@ -63,9 +57,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: "1. Introduction Koinos Mining",
-            link: "/M3/1_introduction.md",
-          },
+            text: "1. Introduction Koinos Mining", link: "/M3/1_introduction.md"},
           { text: "2. Downloading the Node", link: "/M3/2_download-node.md" },
           { text: "3. Inital Setup ", link: "/M3/3_init-setup.md" },
           { text: "4. Starting & Syncing", link: "/M3/4_sync.md" },
@@ -78,32 +70,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "1. Introduction", link: "/M4/1_introduction.md" },
-          {
-            text: "2. Installing the SDK",
-            link: "/M4/2_installing_the_sdk.md",
-          },
+          { text: "2. Installing the SDK",link: "/M4/2_installing_the_sdk.md" },
           { text: "3. The Hello World Project ", link: "/M4/3_hello-world.md" },
-          {
-            text: "4. SDK Folder Structuret",
-            link: "/M4/4_sdk_folder_structure.md",
-          },
-          {
-            text: "5. Compile Your Contract",
-            link: "/M4/5_compile_your_contract.md",
-          },
+          { text: "4. SDK Folder Structuret", link: "/M4/4_sdk_folder_structure.md" },
+          { text: "5. Compile Your Contract", link: "/M4/5_compile_your_contract.md" },
           { text: "6. Generating a Wallet", link: "/M4/6_generate-wallet.md" },
-          {
-            text: "7. Upload Your Smart Contract via Koinos-CLI",
-            link: "/M4/7_upload-contract.md",
-          },
-          {
-            text: "8. Interacting w/ Your Smart Contract via Koinos-CLI",
-            link: "/M4/8_interacting.md",
-          },
-          {
-            text: "9. Interacting w/ Your Smart Contract via KoinosBlocks",
-            link: "/M4/9_interacting-kb.md",
-          },
+          { text: "7. Upload Your Smart Contract via Koinos-CLI", link: "/M4/7_upload-contract.md" },
+          { text: "8. Interacting w/ Your Smart Contract via Koinos-CLI", link: "/M4/8_interacting.md" },
+          { text: "9. Interacting w/ Your Smart Contract via KoinosBlocks", link: "/M4/9_interacting-kb.md" },
         ],
       },
       {
@@ -129,17 +103,25 @@ export default defineConfig({
         ],
       },
       {
-        text: "MODULE 7: LAUNCH A DAPP IN 7 DAYS",
+        text: "MODULE 7: MANAGING STORAGE SPACE ON CHAIN",
         collapsed: true,
         items: [
-          { text: "Introduction", link: "/M7/1_introduction.md" },
-          { text: "Phase 1.0 - Plan", link: "/M7/2_phase1_planning.md" },
-          { text: "Phase 1.1 - Architect", link: "/M7/3_phase1_architecture.md" },
-          { text: "Phase 2.0 - Build Front End", link: "/M7/4_phase2_building_frontend.md" },
-          { text: "Phase 2.1 - Build Middleware", link: "/M7/5_phase2_building_middleware.md" },
-          { text: "Phase 2.2 - Build Smart Contracts", link: "/M7/6_phase2_building_smartcontract.md" },
-          { text: "Phase 3.0 - Deploy", link: "/M7/7_phase3_deployment.md" },
-          { text: "8. How Can We Help You Launch Your dApp?", link: "/M7/8_help.md" },
+          { text: "1. Introduction", link: "/M7/1_introduction.md" },
+          { text: "2. Setting up our Database", link: "/M7/2_setup.md" },
+        ],
+      },
+      {
+        text: "MODULE 8: LAUNCH A DAPP IN 7 DAYS",
+        collapsed: true,
+        items: [
+          { text: "Introduction", link: "/M8/1_introduction.md" },
+          { text: "Plan", link: "/M8/2_planning.md" },
+          { text: "Architect", link: "/M8/3_architecture.md" },
+          { text: "Build Front End", link: "/M8/4_building_frontend.md" },
+          { text: "Build Backend", link: "/M8/5_building_backend.md" },
+          { text: "Build Smart Contracts: Gamestats Part 1", link: "/M8/6.1_building_smartcontract.md" },
+          { text: "Build Smart Contracts: Gamestats Part 2", link: "/M8/6.2_building_smartcontract.md" },
+          { text: "Build Smart Contracts: Gamestats Part 3", link: "/M8/6.3_building_smartcontract.md" },
         ],
       },
     ],
