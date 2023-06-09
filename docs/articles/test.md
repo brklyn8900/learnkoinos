@@ -1,9 +1,11 @@
 ---
 layout: doc
-sidebar: true
+sidebar: false
+footer: false
+aside: false
 ---
 
-# Blog Post
+# Blog Posting --
 
 A smart contract is a computer protocol intended to digitally facilitate, verify, or enforce the negotiation or performance of a contract. It allows trustworthy transactions and agreements to be carried out among disparate, anonymous parties without the need for a central authority, legal system, or external enforcement mechanism.
 
