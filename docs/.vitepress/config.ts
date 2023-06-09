@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Support This Project", link: "/support" },
+      { text: "Blog", link: "/articles/" },
     ],
 
     sidebar: [
@@ -20,7 +21,7 @@ export default defineConfig({
           { text: "Terminology", link: "/M0/koinos_terminology.md" },
           { text: "Koinos Nodes", link: "/M0/koinos_nodes.md" },
           { text: "Proof of Burn", link: "/M0/koinos_pob.md" },
-          { text: "Calculating Block Reward", link: "/M0/koinos_block-reward.md"},
+          { text: "Calculating Block Reward", link: "/M0/koinos_block-reward.md" },
           { text: "Using the Faucet", link: "/M0/using-the-faucet.md" },
         ],
       },
@@ -57,7 +58,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: "1. Introduction Koinos Mining", link: "/M3/1_introduction.md"},
+            text: "1. Introduction Koinos Mining", link: "/M3/1_introduction.md"
+          },
           { text: "2. Downloading the Node", link: "/M3/2_download-node.md" },
           { text: "3. Inital Setup ", link: "/M3/3_init-setup.md" },
           { text: "4. Starting & Syncing", link: "/M3/4_sync.md" },
@@ -70,7 +72,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "1. Introduction", link: "/M4/1_introduction.md" },
-          { text: "2. Installing the SDK",link: "/M4/2_installing_the_sdk.md" },
+          { text: "2. Installing the SDK", link: "/M4/2_installing_the_sdk.md" },
           { text: "3. The Hello World Project ", link: "/M4/3_hello-world.md" },
           { text: "4. SDK Folder Structuret", link: "/M4/4_sdk_folder_structure.md" },
           { text: "5. Compile Your Contract", link: "/M4/5_compile_your_contract.md" },
