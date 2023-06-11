@@ -29,7 +29,9 @@ You will notice that this is the exact same command located in your `.koinosrc` 
 Contract 'namespace' at address 1H3k4zttAjF7qfTqfmKZ4ZCdUL3pRdGnpG registered
 ```
 
-The contract name `namespace` may be anything you wish and has nothing to do with the contract itself. To see what commands are available with this smart contract, use the `list` command and you should see a full list of available commands, including the new contract which you just registered. It will look something like this:
+When using the register command, the name of the contract is userdefined. We chose to use `namespace` but you can call it anything you wish.
+
+To see what commands are available with this smart contract, use the `list` command and you should see a full list of available commands, including the new contract which you just registered. It will look something like this:
 
 ```
 ...
@@ -42,5 +44,7 @@ namespace.transfer_ownership              - Transfer ownership of the contract
 namespace.uri                             - Returns the token's uri
 ...
 ```
+
+Note: If the smart contract was uploaded without an "Application Binary Interface" or `.abi` file, then these entrypoints will not be available and you will get an error.
 
 You may now use the `--help` flag on any of these commands to learn thier usage. This process will apply to any smart contract address.

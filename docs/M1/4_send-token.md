@@ -26,6 +26,15 @@ Mana cost: 0.12764436 (Disk: 0, Network: 311, Compute: 575773)
 
 Here we have several bits of information. We see confirmation of our commands, a transaction ID, the number of operations and how much Mana is used.
 
-To confirm this transaction was picked up by the network, we can enter our transaaction ID onto a block explorer like [KoinosBlocks](http://koinosblocks.com). When using KoinosBlocks to verify transactions, don't forget to set your RPC node for either main net or test net!
+To confirm this transaction was picked up by the network, we can enter our transaaction ID onto a block explorer like KoinosBlocks.
+
+If using ___Main Net:___ [KoinosBlocks - Main Net](http://koinosblocks.com). 
+
+
+If using ___Harbinger Test Net:___ [KoinosBlocks - Harbinger Test Net](http://harbinger.koinosblocks.com). 
+
+When using KoinosBlocks to verify transactions, don't mix up main net with test net!
+
+![koinosblocks](images/cli_3.png "koinosblocks")
 
 Next, we'll learn how to interact with a smart contract via Koinos CLI.

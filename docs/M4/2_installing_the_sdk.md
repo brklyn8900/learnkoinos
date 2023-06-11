@@ -7,12 +7,12 @@ Before we intall the SDK, we must ensure that the development environment has al
 
 ### INSTALL NODEJS
 
-NodeJS is necessary to develop and build the smart contract. Follow the instructions at [the NodeJS website](https://nodejs.org/) for installation guide specific to your machine. 
+`NodeJS` is necessary to develop and build the smart contract. Follow the instructions at [the NodeJS website](https://nodejs.org/) for installation guide specific to your machine. 
 
 ___Be aware that you may need to use `nvm` or the node version manager to set the correct version. We have tested to ensure that version 16.13.1 works.___
 
 #### Notes for Installation on Mac M1s:
-You may find an error with NodeJS when compiling smart contracts that appears similar to this output:
+You may find an error with `NodeJS` when compiling smart contracts that appears similar to this output:
 ```
 npm ERR! command /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js install --force
 --cache=/Users/motoengineer/.npm --prefer-offline=false --prefer-online=false --offline=false --no-progress --no-save
@@ -24,7 +24,7 @@ sudo chown -R 501:20 "/Users/{username}/.npm"
 ```
 
 ### INSTALL PROTOBUF
-Protobuf is necessary to build .proto files for Koinos Smart Contracts. Follow the instructions at the [Protobuf github repo](https://github.com/protocolbuffers/protobuf) for the binarys specific to your machine.
+`Protobuf` is necessary to build .proto files for Koinos Smart Contracts. Follow the instructions at the [Protobuf github repo](https://github.com/protocolbuffers/protobuf) for the binarys specific to your machine.
 
 ### Protobuf Installation Method 1 (recommended):
 For __Intel Macs__ using homebrew package manager, you may easily install protobuf for your Intel Mac using the following command:

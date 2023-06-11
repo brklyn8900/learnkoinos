@@ -1,6 +1,6 @@
 # COMPILE THE CONTRACT
 
-Once all your modifications have been made, you're now ready to build the release version. To do this, use the following command:
+Once all your modifications have been made, you're now ready to build the release version. To do this, use the following command from the `assembly/token` directory.
 
 ```
 yarn build:release

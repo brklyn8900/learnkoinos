@@ -1,35 +1,10 @@
-# Launch a dApp in 7 days!
+# INTRODUCTION
 
-In this module, we'll walk you through the process of launching a successful dApp in 7 days on the Koinos blockchain. We're going to provide you with all of the knowledge necessary to pull this off using an example project called "Fact or Fiction", a trivia-type game. You should be someone who is:
+In this module, we'll go through everything you need to launch a dApp in 7 days from front end, backend to smart contracts.  
 
-1. Part of a team that is building on Koinos for the 1st time.
+___Read more about it on our  [7 Day Dapp Challenege Blog](/articles/1_blog_7daydapp)___
 
-2. A developer or entrepreneurs who wants to understand the logistics of developing a dApp.
+Whether you are a seasoned developer looking to develop on Koinos for the first time, or a entreprenuer who wants to understand what it takes to launch a dApp, this modules should help you under the full scope of work and the Koinos specific implementation details. 
 
-3. An entrepreneurs with an idea and wondering how much effort is needed to develop a dApp.
+Note: This module references other modules on Learn Koinos which are linked when necessary.
 
-
-## Why 7 days? 
-
-Most startups fail because they cant launch their product. It is either not well developed, or too complicated. The 7 day dApp is a framework to help you boil your idea into something that can be launched in 7 days. The sooner you launch, the sooner so you can can user feedback and begin iterating your idea.
-
-This module gives you that framework and encourages you to launch quickly and generate enough momentum to be successful.
-
-  
-
-## How this Module is structured.
-
-
-This module will break down the three major phases of work.
-
-
-(i) The planning phase (approximately 1 day)
-
-(ii) The building phase (approximately 5 days)
-
-(iii) The deployment phase (approximately 1 day)
-
-
-## Prerequisites
-
-Anyone can do this.If you're an entrepreneur, you need to be able to sell your idea to a development team that can in 7 days. If you are a developer, you need to be able to boil down your MVP to be able to launch in 7 days. Basically, anyone should be able to do this since Koinos offers a risk-free way to launch dApps.

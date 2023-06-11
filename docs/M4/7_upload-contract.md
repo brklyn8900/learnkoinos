@@ -19,6 +19,8 @@ Transaction with ID 0x122096042fb2e2c085eb4e78cb80a4933e6cda21ebf65722e2c0f283f3
 Mana cost: 0.38643078 (Disk: 16472, Network: 17562, Compute: 177948)
 ```
 
+Next, we'll interact with this contract.
+
 
 **Important note:** The wallet/address we use to upload a contract will be the address of the contract itself. This means that the address `19yp497RPiuWwsNUWp9cHWfbWUupHsRQLE` is the address of the wallet we created earlier, but it is also the address of the contract. Smart contracts are users in Koinos. Additionally, the block size limit on the Koinos blockchain is set to 200kb which means that the contract's WASM files cannot exceed this size. If it does, splitting the logic into several smaller contracts would be necessary.  
 
