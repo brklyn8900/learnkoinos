@@ -1,28 +1,35 @@
 
-# STEP 2: Set up the environment
+# Step 2: Environment Setup
 
-## Config file setup
-Inside your koinos directory, is a file called `config-example`.  Make a copy of this file and rename it to `config` using the following command:
+Before we begin sycing with the blockchain, we'll need to setup the Koinos Node Environment.
+
+##
+
+
+
+# SETTING UP THE config.yml FILE
+
+## Mac and Linux
+Enter your `~./koinos` directory that you just cloned via github. Inside this directory is a folder called `config-example`.  Make a copy of this folder and rename it to `config`. If using command line, use the following command:
+
 ```
 cp -r config-example config
 ```
-___If you are using windows, you may choose to do all of these steps manually through your GUI.___
 
-You will now need to edit the config file using your preferred editor. For windows, this can be notepad, for Mac or Linux, we will be using `nano` editor.
-
-To edit the config file for mac or linux, use the following command:
+Enter the `config` folder and open the `config.yml` file using your preferred editor. We will be using `nano` editor. If using command line, use the following command:
 ```
-nano config
+cd config
+nano config.yml
 ```
-This will open the nano editor and allow you to edit several fields. Find the following field and remove the `#`
+This will open the file in your editor where you will need to edit several fields. Find the `#producer` field and remove the `#`. Then add the wallet address where you are holding your $KOIN or $VHP.
 ```
-#producer
+#producer:
 ```
 to
 ```
-producer
+producer: <insert wallet address here>
 ```
-&
+Next, unhash the private key field as shown:
 ```
 #private-key-file:private.key
 ```
@@ -30,16 +37,52 @@ to
 ```
 private-key-file:private.key
 ```
+Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
 
-## .env file setup
-Also inside your koinos directory, is a file called `env.example`.  Make a copy of this file and rename it to `.env` using the following command:
+![config.yml_setup](images/3_node.png)
+
+
+## Windows Only
+Enter the `C:\koinos-2.0.0` directory. Inside this directory is a folder called `config-example`.  Make a copy of this folder and rename it to `config`. 
+
+Enter the `config` folder and open the `config.yml` file using your preferred editor. For windows, this can be notepad.
+
+This will open the file in your editor where you will need to edit several fields. Find the `#producer` field and remove the `#`. Then add the wallet address where you are holding your $KOIN or $VHP.
+```
+#producer:
+```
+to
+```
+producer: <insert wallet address here>
+```
+Next, unhash the private key field as shown:
+```
+#private-key-file:private.key
+```
+to
+```
+private-key-file:private.key
+```
+Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
+
+![config.yml_setup](images/3_node.png)
+##
+
+# SETTING UP THE .env FILE
+
+## Mac and Linux
+Inside your `~./koinos` directory, is a file called `env.example`.  Make a copy of this file and rename it to `.env`. If using command line, use the following command:
 
 ```
 cp env.example env
 ```
-If you are using mac or linux, you do not need to change this directory if you do not wish to. The `.env` file will automatically use your home folder to create the node directory located at `~/.koinos`.
 
-If you are using windows ONLY, you'll need to edit the .env file using your preferred editor to change
+The `.env` file is used to manage the directory of your Koinos Node database files. The remainder of this guide assumes you use the default home directory. No further changes to this file is necessary.
+
+
+## Windows Only
+Inside your `C:/koinos-2.0.0` directory, is a file called `env.example`.  Make a copy of this file and rename it to `.env`. Open the file with your editor and change  the following:
+
 ```
 BASEDIR=~./koinos
 ```
@@ -47,4 +90,6 @@ to
 ```
 BASEDIR=c:\koinos-node
 ```
-This will use c:\koinos-node folder to contain all of your mining node files. You do not need to use `koinos-node` and may name it anything you like. 
+This will use `c:\koinos-node` directory for your koinos node database. You do not need to use the phrase `koinos-node` and may name it anything you like but the remainder of this guide will assume this as the default name.
+
+

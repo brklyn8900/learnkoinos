@@ -1,9 +1,9 @@
 
 # Setting Up your Hello World Contract
 
-Every `koinos-sdk-as-cli` project begins by creating a boiler plate folder.
+Every `koinos-sdk-as` projects by launching your project folder. To do this, we'll use the `koinos-sdk-as-cli` and the `create` command.
 
-The `koinos-sdk-as-cli` automatically does this with the `create` command. We will begin by creating a project called `myawesomecontract`. To intiate this boilerplate development folder, run the following command:
+Let's create a project called `myawesomecontract`. To begin this project, run the following command:
 
 ```
 koinos-sdk-as-cli create myawesomecontract
@@ -21,28 +21,13 @@ You're all set! Run the following set of commands to verify that the generated c
   cd /Users/tutorial/myawesomecontract && yarn install && yarn build:debug && yarn test
 ```
 
-At the end of the output is a set of commands that you can copy and use directly. The command will move you from your current directory into your project folder, install the required dependencies, then build and test it to ensure proper deplopyment of the boilerplate.
-
-You may also do this manually by running the following command,(replace with your specific directory):
-
-```
-cd /Users/tutorial/myawesomecontact
-```
-Once you are in your project directory, run the following commands:
-
-```
-yarn install && yarn build:debug && yarn test
-```
-
-Here is a breakdown for each command what it does:
+At the end of the output are a set of commands that you can copy and use directly. Here is a breakdown for each command what it does:
 
 - `yarn install`: Installs all the dependencies needed for the SDK. This only needs to be ran once per a project folder. It must be executed inside the project folder.
 - `yarn build:debug`: Compiles the smart contract into Web Assembly using a debug build. You should run this each time you change your smart contract so you can test it.
 - `yarn test`: Runs the unit tests on the compiled smart contract.
 
-These commands can be found in the `package.json` file in your project folder.
-
-If successful the output should look something like this:
+Note: These commands can be found in the `package.json` file in your project folder. After running these commands, the output should look something like this:
 
 ```
 [Describe]: contract
@@ -77,5 +62,9 @@ Done in 3.28s.
 
 After running through this process, you now have a fully setup boilerplate development folder that has been tested to function correctly. 
 
-The file that you need to edit to build your smart contraact is located at `\myawesomecontract\assembly\myawesomecontract.ts`.
+The file that you need to edit to build your smart contract is the following:
+
+Proto file: `\myawesomecontract\assembly\proto\myawesomecontract.proto`.
+
+Contract Logic: `\myawesomecontract\assembly\myawesomecontract.ts`.
 

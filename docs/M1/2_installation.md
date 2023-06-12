@@ -2,10 +2,16 @@
 
 [To download `koinos-cli` visit the github repo here](https://github.com/koinos/koinos-cli).
 
-On the right side is a section called `Releases` where you will find the downloadable binarys to run the application. As of this writing, the current version is `v2.0.0`. Clicking on the version number will bring you to the download page where you can grab the binary for your specific operating system. Optionally, some users may want to view the source code and compile it on their own.
+On the right side is a section called `Releases` where you will find the downloadable binarys to run the application. As of this writing, the current version is `v2.0.0`. 
+
+![github](images/cli_1.png "github")
+
+Clicking on the version number will bring you to the download page where you can grab the binary for your specific operating system. Optionally, some users may want to view the source code and compile it on their own.
 
 
 Once the binary for your machine is downloaded, open the compressed folder and extract the contents to your prefered location. __Within this folder is a hidden file called `.koinosrc`.__ 
+
+![koinosrc](images/cli_2.png "koinosrc")
 
 If you don't see it, make sure your OS shows hidden files. Open `.koinosrc` in your preferred editor and you will see the following contents:
 
@@ -20,11 +26,11 @@ register resources 1HGN9h47CzoFwU2bQZwe6BYoX4TM6pXc4b
 register governance 19qj51eTbSFJYU7ZagudkpxPgNSzPMfdPX
 ```
 
-By default, the `.koinosrc` file automatically connects `koinos-cli` to the Koinos Main Net. 
+By default, the `.koinosrc` file automatically connects `koinos-cli` to the Koinos Main Net and loads up several smart contracts.
 
-The `connect` command connects you to the ___main net RPC node___ provided by Koinos Group. This is the official API and it is currently free. In the future, this API may not be free and you may need to edit the `.koinosrc` file to change the RPC end point.
+The `connect` command at the top connects you to the ___main net RPC node___ provided by Koinos Group. This is the official API and it is currently free. In the future you may decide to change API nodes, simply change the URL to change the RPC end point.
 
-If you are working on ___The Harbinger Test Net___ we suggest you replace the entire contents of your `.koinosrc` file with the RPC end oint and system level samrt contracts specific to the Harbinger Test Net. To do this you can replace everything with the following information:
+If you are working on ___The Harbinger Test Net___ you will need to point your wallet to test net nodes and testnet smart contracts. We suggest you replace the entire contents of your `.koinosrc` file with the following information:
 
 ```
 connect https://harbinger-api.koinos.io/

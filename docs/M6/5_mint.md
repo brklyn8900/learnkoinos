@@ -1,5 +1,11 @@
 # MINT TOKENS
 
+## Using Koinos CLI
+
+Register your new token address with `koinos-cli` as shown in [Module 1](/M1/1_introduction) and run the `mint` method.
+
+## Using Koinos Blocks
+
 Head over to [KoinosBlocks](http://koinosblocks.com) and enter the address that you uploaded your NFT smart contract to in the search bar.
 
 Connect to Koinos Blocks with Kondor wallet that contains your NFT contract using the  `Connect Wallet ` button:

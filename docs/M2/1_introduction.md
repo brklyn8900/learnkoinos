@@ -6,6 +6,6 @@ On fee based blockchains such as Ethereum, users could pay a fee and still not g
 
 With Mana, no tokens are ever lost!
 
-Developers should pay special attention to something called resource credits, otherwise know nas `rc` or `rclimits`. Resource Credits is the system that manages how much Mana is available to be consumed by any given wallet. The `koinos-cli` provides a powerful interface to manage `rc`, see [RC Limits](/M1/6_set-rclimit.md).
+Developers should pay special attention to something called resource credits, otherwise known as `rc` or `rclimits`. Resource Credits is the system that manages how much Mana is available to be consumed by any given wallet. The `koinos-cli` provides a powerful interface to manage `rc`, see [RC Limits](/M1/6_set-rclimit.md).
 
 Let's begin the next section by understanding what Mana is first.

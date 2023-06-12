@@ -1,17 +1,16 @@
 # Developing on Koinos
 
-Koinos features a robust decentralized community as a result of its early launch. Because of this, there are several developers who have created different methods to create and deploy smart contracts on Koinos.
+Koinos offers multi-language support but the overwheming majority of smart contracts will likely be developed using TypeScript for Web Assembly, also known as Assembly Script. Don't worry there aren't many differences between TypeScript and AssemblyScript.
 
-The method shown in this particular lesson uses the `koinos-sdk-as-cli` which was originally created by independent developer named Roamin and adopted officially by Koinos Group, the company behind the creation of the Koinos Blockchain.
+This guide will walk the developer through the installation of the official SDK of Koinos for TypeScript/AssemblyScript known as `koinos-sdk-as-cli`.
 
-___Note:The `koinos-sdk-as-cli` defines the ABI data within the proto files, where as the `koinos-contracts-as` (used in lesson 3) uses  `koinos-precompiler-as` which defines the ABI data inside the TS files. While they appear similar, we provide seperate guides on how to use them.___
+In this first lesson, we will run through the full usage of the `koinos-sdk-as-cli` including its intial setup. Once setup, developers can quickly launch a development space for their smart contract. 
 
-In this first lesson, we will run through the full usage of the `koinos-sdk-as-cli` including its intial setup. Once setup, developers will find that creating a smart contract can be done in the following steps:
+The full process should typically encompase the following steps once the SDK is installed:
 
-1. Create the project boiler plate with the SDK
-2. Write their smart contract logic
-3. Compile their contract and gather the contract `.wasm` and `.abi` files.
-4. Create a wallet address
-5. Upload the `.wasm` and `.abi` files to the new wallet address using the `Koinos CLI`.
+1. Launch a new `koinos-sdk-as` project using `koinos-sdk-as-cli`.
+2. Develop the logc of the smart contract.
+3. Compile their contract to produce the `.wasm` and `.abi` files for each smart contract.
+4. Create a wallet address and upload the `.wasm` and `.abi` files using the `Koinos CLI`.
 
-In just 5 simple steps, developers can quickly get their contract on chain.
+In just 4 simple steps, developers can quickly get their contract on chain.

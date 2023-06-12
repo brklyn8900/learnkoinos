@@ -37,7 +37,7 @@ For the Fact or Fiction game, it was possible to store all types of information 
 
   
 
-## FRONT END DESIGN
+## FRONTEND DESIGN
 
 Since the UX is established, it should be easy to build the front end based on the UX. Avoid the pitfall of focusing on the aesthetics. Trust us, the users don't care as much as you think. Instead, focus on an easy experience for the user so they can quickly understand how to navigate your MVP. If you find time at the end of the building stage, you can go back and apply some aesthetics. This module will provide several drop-in components that will help speed up your front-end design.
 
@@ -45,21 +45,21 @@ Our developers were familiar with React, so that's the framework we chose to imp
 
 Our front end interacts with our game server (the middleware) which is connected to the blockchain via a RPC endpoint provided by [koinos.io](https://api.koinos.io)
 
-## MIDDLEWARE DESIGN
+## BACKEND DESIGN
 
-Each dApp will have a different middleware requirement. BurnKoin for example, is entirely powered by the blockchain and contains no middleware. Instead, all information is pulled directly from the blockchain. Some dApps might choose to use a serverless design and rely on services such as firebase or supabase for all their application needs.
+Each dApp will have a different backend requirement. BurnKoin for example, is entirely powered by the blockchain and contains no backend. Instead, all information is pulled directly from the blockchain. Some dApps might choose to use a serverless design and use Firebase or Supabase.
   
-For Fact or Fiction, we decided on a serverless design to get our MVP shipped as quickly as possible so we will be using supabase to coordinate the front end with the smart contracts.
+For Fact or Fiction, we decided on a serverless design to get our MVP shipped as quickly as possible. We will be using supabase to coordinate the front end with the smart contracts.
   
 ## SMART CONTRACT DESIGN
 
 Since we previously decided to only store the game winner, we opted for two smart contracts.
 
-__The Game State Contract__
+__The Gamestats Contract__
 
 This contract is used to store the winning player's address on chain to be recovered in the future. It will receive data from supabase at the end of the game. Storing the game-winner allows us to create a future leaderboard but more importantly, it will demonstrate how to store and recall chain state.
 
-__The Game Reward Token Contract__
+__The Token Contract__
 
 This contract initializes the game reward token and receives mint commands from supabase once the game is completed. The token contract will mint and issue the reward to the address stored in the game state contract.
 

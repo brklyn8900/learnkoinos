@@ -18,8 +18,8 @@ All of the smart contract-related code lives in the `assembly`. Most of our atte
 - `__tests__` contains the unit tests for the contract.
 - `proto` contains custom proto files for the contract.
 - `index.ts` contains the logical entry point of the contract.
-- `Myawesomecontract.boilerplate.ts` contains boilerplate auto-generated example code based on the proto files.
-- `Myawesomecontract.ts` contains the actual code of the smart contract.
+- `Myawesomecontract.boilerplate.ts` contains boilerplate auto-generated example code based on the proto files. This file should be copied and the phrase `.boilerplate` should be removed. This new file should now contain your produciton level code. Each time you build your contract, this file will be replaced so never code directly on this boiler plate file.
+- `Myawesomecontract.ts` contains the actual code of the smart contract, copied from `Myawesomecontract.boilerplate.ts` above.
 - `tsconfig.json` tells the IDE what types are available in AssemblyScript, AS is like TypeScript but with WebAssembly types.
 
 

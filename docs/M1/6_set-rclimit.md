@@ -11,7 +11,7 @@ If you have a wallet open, you can call the `account_rc` command which will prov
 889430480 rc
 ```
 
-RC refers to resource credits, which is the backend term for Mana. Again, we'll discuss this in detail in Module 2.
+RC refers to resource credits, which is the backend term for Mana. This is detailed in [Module 2](/M2/1_introduction).
 
 This particular account has 88940480 RC. If we check the `koin.balance_of` we will recieved the following:
 
@@ -20,7 +20,7 @@ This particular account has 88940480 RC. If we check the `koin.balance_of` we wi
 8.89430480 KOIN
 ```
 
-Although the units do not appear the same, `account_rc` reports the available Mana as satoshis, while `koin.balance_of` reports the units as fractional numbers. In this case, the `account_rc` equals `koin.balance_of` which means that the 100% of the account's Mana is avaialble for use.
+The decimal places for `account_rc` are reported in whole intergers, while `koin.balance_of` uses floating numbers. In this case, the `account_rc` equals `koin.balance_of` which means that the 100% of the account's Mana is avaialble for use.
 
 ## Setting rclimit
 
