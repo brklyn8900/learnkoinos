@@ -1,8 +1,8 @@
-# PHASE 1: THE IDEA & BUILDING THE TEAM
+# PHASE 1: THE IDEA & THE SKILLS REQUIRED
 
-Early founding members must have a basic idea that they wish to execute. It is vital to be able to easily explain the user experience to your potential partners. Always talk from the perspective of the user experience! The best way we've found is to describe the experience based on the final outcome that the user will remember and work backwards. Remember, if you can't explain it simply, then you don't understand it well enough! If you find yourself stuck, then simplify and try again.
+While it is acceptable to build a niche dApp, we suggest you begin with a general idea to cover the widest range of  possible users. Focus on the user's perspective and their experience and improve using their feedback!
 
-To be able to successfully complete this challenge, you must understand that the final product might launch with less features than you originally planned for and that is ok! The goal is to focus on launching and gathering user feedback so you can improve based on real world usage.
+Remember, if you can't explain it simply, then you don't understand it well enough! If you find yourself in this position, simplify your idea and try again.
 
 Let's start!
 

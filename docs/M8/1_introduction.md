@@ -1,10 +1,35 @@
 # INTRODUCTION
 
-In this module, we'll go through everything you need to launch a dApp in 7 days from front end, backend to smart contracts.  
+In this module, we'll give you the knowledge needed to launch a dApp in 7 days on the Koinos Blockchain.
 
 ___Read more about it on our  [7 Day Dapp Challenege Blog](/articles/1_blog_7daydapp)___
 
-Whether you are a seasoned developer looking to develop on Koinos for the first time, or a entreprenuer who wants to understand what it takes to launch a dApp, this modules should help you under the full scope of work and the Koinos specific implementation details. 
+## Why Blockchain?
 
-Note: This module references other modules on Learn Koinos which are linked when necessary.
+Not all blockchains are the same which means each blockchain offers their own unique properties. Blockchains like Bitcoin are designed to only transfer tokens, while Ethereum offers the ability to create smart contracts, yet both leverage an immutable ledger.
 
+dApps need two main properties:
+
+1. Immutable Ledger - Immutability ensures that everyone is able to verify the global state. No one can argue unversal truth when all transactions are recorded on chain that cannot be tampered with. Users can always verify ownership and trust is not required.
+
+2. Smart Contracts (dApps) - Developers can customize the specific conditions required to achieve a deterministic outcome. Combined with Web2 principles, dApps offer users discreet advantages when using Web3 applications rather than Web2.
+
+But this is not enough. What if someone could shut down your dApp by banning your application? This is why blockchains must also be provably decentralized.
+
+Decentralization ensures that the ecosystem stake holders are proportionately equal and no single entity can change the fate of anyone elses. 
+
+## That's great, but why should I build on Koinos rather than any other blockchain?
+
+Koinos contains all of the properties that make it decentralizated blockchain suitable for dApps. But it also offers several distinct advantages that make it the #1 place to build dApps.
+
+1. No onboarding necessary - Koinos dApps don't require gas fees, meaning new users don't have to figure out how to acquire tokens to pay fees. Users can get a wallet address and start using dApps immediately.
+
+2. dApps don't compete with the blockchain - Fees cause token holders to have usage anxiety. Should token holders speculate and hodl? Or spend the token to use the dApp? Since the Koinos Blockchain is free-to-use, dApps aren't competing with the blockchain for tokens. Additionally, when the value of $KOIN increases it doesn't impact usage anxiety because tokens are never lost to transaction cost.
+
+3. Build in common langauges - Koinos supports any language that can compile to WASM such as the tremendously popular  Typescript. If you already know typescript, you can build a dApp in your spare time without needing to learn yet another language.
+
+## How this example can help you launch your dApp
+
+Without the need for users to buy tokens, ordinary people can try blockchain applications for the first time with zero risk and zero signup. Our 7-day-dapp example is designed to show you how to leverage the full power of the Koinos Blockchain. This dapp will not require players to hold any tokens whatsoever and it will also issue them tokens which they can immediately use.
+
+We hope you take this example and use it to build turn your dreams into successful dApps. For more support, please reach out on the official [Koinos Discord](https://discord.gg/qqMCE9A9fV)
