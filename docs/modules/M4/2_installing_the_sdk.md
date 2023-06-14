@@ -1,7 +1,7 @@
 
 # Installing the `koinos-sdk-as-cli`
 
-Before we intall the SDK, we must ensure that the development environment has all of the required dependencies. 
+Before we install the SDK, we must ensure that the development environment has all of the required dependencies. 
 
 ## Step 1: Prepare the Dev Environment
 
