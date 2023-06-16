@@ -57,4 +57,4 @@ TypeError: Cannot read properties of undefined (reading '0')
 
 If all is well, then you've just deployed your token contract to the address you've entered previously in the `_TOKEN_CONTRACT_ID` field. You can register the token in your `koinos-cli` wallet and begin to interact with it. You may also use [Koinos Blocks](http://koinosblocks.com) to interact with your token. Just search the `_TOKEN_CONTRACT_ID` in the search field of Koinos Blocks.
 
-For more guidance on interacting, see our previous lesson on [Interacting With Your Smart Contract](/M1/5_interacting.md)
+For more guidance on interacting, see our previous lesson on [Interacting With Your Smart Contract](../../modules/M1/5_interacting.md)

@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/docs/',
   title: "Learn Koinos",
   description: "Build on the worlds first free-to-use blockchain, Koinos.",
   themeConfig: {
@@ -132,7 +133,7 @@ export default defineConfig({
           items: [
             { text: "Back End", link: "/7_day_dapp/3.0_introduction.md" },
             { text: "Building Back End", link: "/7_day_dapp/3.1_building_backend.md" },
-            ],
+          ],
         },
         {
           text: "Day 4 & 5: Developing the Smart Contracts",
@@ -142,7 +143,7 @@ export default defineConfig({
             { text: "Build Smart Contracts Part 1", link: "/7_day_dapp/4.1_building_smartcontract.md" },
             { text: "Build Smart Contracts Part 2", link: "/7_day_dapp/4.2_building_smartcontract.md" },
             { text: "Build Smart Contracts Part 3", link: "/7_day_dapp/4.3_building_smartcontract.md" },
-            ],
+          ],
         },
         {
           text: "Day 6: Tying everything together",
