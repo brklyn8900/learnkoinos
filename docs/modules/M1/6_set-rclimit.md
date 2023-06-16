@@ -1,6 +1,6 @@
 # RC Limit Settings
 
-RC limits is covered in [Module 2: Mana & RC Limits](/M2/1_introduction.md) however we will briefly review how to set the RC limit in this chapter.
+RC limits is covered in [Module 2: Mana & RC Limits](/modules/M2/1_introduction.md) however we will briefly review how to set the RC limit in this module. RC refers to resource credits, which is the backend term for Mana. 
 
 ## Checking account_rc
 
@@ -11,7 +11,7 @@ If you have a wallet open, you can call the `account_rc` command which will prov
 889430480 rc
 ```
 
-RC refers to resource credits, which is the backend term for Mana. This is detailed in [Module 2](/M2/1_introduction).
+
 
 This particular account has 88940480 RC. If we check the `koin.balance_of` we will recieved the following:
 
@@ -30,10 +30,11 @@ Koinos-CLI allows you to set how much `rc` can be consumed by any given transact
 🔓 > rclimit 10%
 Set rc limit to 10%
 ```
-If we want to view the current `rclimit` we use the following command with the following response:
+If we want to view the current limit, we simply call `rclimit`  which will return the following response:
 
 ```🔓 > rclimit
 Current rc limit: 10% (0.9)
 ```
+In the above example, `0.9` referes to the explicit amount of Mana available. 
 
 If the `rclimit` is less than the required Mana to complete a transaction, raise your `rclimit` accordingly.

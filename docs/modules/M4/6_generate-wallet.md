@@ -1,6 +1,6 @@
 # Generate a New Wallet to Hold Your New Smart Contract:
 
-To create a wallet, we'll be using `Koinos CLI`. If you arent familiar with how the `Koinos CLI` works, head over to our lesson on [The Koinos CLI](/M0/koinos_introduction.md) to get started.
+To create a wallet, we'll be using `Koinos CLI`. If you arent familiar with how the `Koinos CLI` works, head over to our lesson on [The Koinos CLI](/modules/M1/1_introduction.md) to get started.
 
 Once you have the `Koinos CLI` installed, create a new wallet using the following command:
 

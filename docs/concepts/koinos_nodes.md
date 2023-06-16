@@ -1,11 +1,16 @@
 # Koinos Nodes
 
-Koinos is a permisionless system which allows anyone to participate in the ecosystem. The only requirement to run a Koinos Mining node is that the miner must possess $KOIN.
+Koinos is a permisionless system which allows anyone to participate in the ecosystem. The only requirement to run a Koinos Mining node is that the miner must possess $KOIN and have a modern computer.
 
-Nodes can be operated on tyical hardware found on home computers. For more information on the specifications, see developer tutorials on [How to Launch a Mining Node](/modules/M3/1_introduction.md).
+For more information on running a node, see developer tutorials on [How to Launch a Mining Node](/modules/M3/1_introduction.md).
 
 
-Several mining pools (aka burn pools) also exist for users who do not wish to run a node such as [BurnKoin](http://burnkoin.com) and various pools found within [Fogata](http://fogata.io). For the full tutorial on how to run a node, see the developer tutorials tab. 
+Several mining pools (aka burn pools) also exist for users who do not wish to run a node but still want to participate in earning rewards for securing the network.
+
+[BurnKoin](http://burnkoin.com) is the first burn pool to launch.
+
+[Fogata](http://fogata.io) followed shortly after and allows individual users to create their own pools.
+
 
 ## What is a Koinos Node?
 
