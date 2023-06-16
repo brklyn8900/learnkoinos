@@ -13,9 +13,11 @@ Your `.wasm` file is located in the following directory:
 ```
 /koinos-sdk-as-examples/token/assembly/build/release/contract.wasm
 ```
+
 Your `.abi` file is located in the following directory:
+
 ```
 /koinos-sdk-as-examples/token/assembly/build/release/token.abi
 ```
 
-With these two files, generate a koinos wallet with `koinos CLI` and deploy as shown in [Module 4: Uploading your Smart Contract](/M4/7_upload-contract.md).
+With these two files, generate a koinos wallet with `koinos CLI` and deploy as shown in [Module 4: Uploading your Smart Contract](../M4/7_upload-contract.md).

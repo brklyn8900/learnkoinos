@@ -2,7 +2,7 @@
 
 ## PREREQUISITE
 
-You must have already setup your developer environment and installed the `koinos-sdk-as-cli` from [Module 4](/M4/1_introduction). If you haven't done so, please review that lesson and setup the SDK.
+You must have already setup your developer environment and installed the `koinos-sdk-as-cli` from [Module 4](../M4/1_introduction.md). If you haven't done so, please review that lesson and setup the SDK.
 
 ## CLONE THE REPO
 
