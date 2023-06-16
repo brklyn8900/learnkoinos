@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Home", link: "https://learnkoinos.xyz" },
       // { text: "Blog", link: "/articles/" },
       { text: "Developer Tutorials", link: "/modules/" },
       { text: "7 Day Challenge", link: "/7_day_dapp/" },
