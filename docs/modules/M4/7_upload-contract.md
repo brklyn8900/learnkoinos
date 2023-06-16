@@ -27,4 +27,10 @@ Next, we'll interact with this contract.
 As you can see, the upload cost us `0.38643078 Mana`. Mana is not a fee, but a regenerative resource intrinsic to each KOIN, which means we didn't spend any actual tKOIN (or KOIN on mainnet) to upload our contract.
   
 
-We can check the transaction on the [block explorer](https://koinosblocks.com) by first setting the API node address (top right corner) to `https://harbinger-api.koinos.io`, refreshing, and then searching for the transaction ID `0x12205d19a5e9fc1a8d12478b7ff761c7b4619b9770404da2dff41d872cd0f0e6fdf8`(using your transaction ID as reported in the CLI).
+We can check the transaction on a block explorer to confirm it's been successfully uploaded. 
+
+For harbinger testnet, use [Koinos Blocks for Harbinger](http://harbinger.koinosblocks.com).
+
+For Koions main net, use [Koinos Blocks for Main Net](http://koinosblocks.com)
+
+Since we uploaded our contract to the Harbinger test net, we'll use the second link and search `0x12205d19a5e9fc1a8d12478b7ff761c7b4619b9770404da2dff41d872cd0f0e6fdf8` which brings us to the transaction information, confirming the upload was successful.

@@ -1,6 +1,6 @@
 # Understanding the SDK Folder Structure
 
-Now that we have the `koinos-sdk-as-cli` installed and we created a project  `myawesomecontract`, lets understand the folder structure of the boiler plate so you can easily navigate it. Open your folder in your prefered code editor, in this example, we will be using VSCode. It should look similar to this:
+Lets explore the folder structure of our `myawesomecontract` project. It will be structured as follows:
 
 ![file structure image](/images/vscode-file-structure-image.png "File structure")
 
@@ -11,23 +11,26 @@ This directory contains your `.abi` file. Initially this folder is empty, howeve
 
 
 ## The  `assembly` directory:
-All of the smart contract-related code lives in the `assembly`. Most of our attention will be focused here.
+All of the smart contract-related code lives in the `assembly` folder. The vast majority of the development work will be focused here.
 
 ![assembly folder image](/images/assembly-folder-image.png "Assembly directory")
 
-- `__tests__` contains the unit tests for the contract.
-- `proto` contains custom proto files for the contract.
-- `index.ts` contains the logical entry point of the contract.
-- `Myawesomecontract.boilerplate.ts` contains boilerplate auto-generated example code based on the proto files. This file should be copied and the phrase `.boilerplate` should be removed. This new file should now contain your produciton level code. Each time you build your contract, this file will be replaced so never code directly on this boiler plate file.
-- `Myawesomecontract.ts` contains the actual code of the smart contract, copied from `Myawesomecontract.boilerplate.ts` above.
-- `tsconfig.json` tells the IDE what types are available in AssemblyScript, AS is like TypeScript but with WebAssembly types.
+- `__tests__` is reserved for the contract unit tests.
+- `proto` is where you will develop your smart contract's proto files.
+- `index.ts` contains the logical entry point of the contract. It is generated for your automatically.
+- `Myawesomecontract.boilerplate.ts` contains the auto-generated boilerplate based on your proto file.  This file should be copied and the phrase `.boilerplate` should be removed. The new file should be used to deveop your produciton level code. Each time you build your contract, this file will be replaced so never code directly on this boiler plate file.
+- `Myawesomecontract.ts` is created by the user (see above).
+- `tsconfig.json` tells the IDE what types are available in AssemblyScript, AS is like TypeScript but with WebAssembly types, it is automatically generated.
+
+
+Let us now dig deeper into each of the two folders, `__tests__` and `proto`.
 
 
 ## The `/assembly/__tests__` directory:
 
-In `__tests__` we should have a file called `myawesomecontract.spec.ts` containing unit tests for the smart contract.
+In `__tests__` we should have a file called `myawesomecontract.spec.ts` containing unit tests for the smart contract. Unit tests are created by the developer.
 
-Let's have a look at the actual unit test implementation. Comments have been added to the code that hasn't been explained previously:
+Let's have a look at the actual unit test implementation for our `Hello World` contract. Comments have been added to the code that hasn't been explained previously:
 
 ``` ts
 // Import the smart contract ts file
@@ -69,7 +72,7 @@ The `proto` directory should look like this:
 - `myawesomecontract.proto` contains the protocol buffers definitions.
 - `myawesomecontract.ts` is auto-generated AssemblyScript code based on the above proto file.
 
-Let's have a look at `myawesomecontract.proto`:
+Let's have a look at `myawesomecontract.proto` for our `Hello World` contract:
 
 ```proto
 syntax = "proto3";
@@ -119,10 +122,13 @@ This directory contains the dependencies related specifically the koinos blockch
 
 
 ## The `build` directory:
-The `build` directory does not initally exist. It has two sub directories, the `debug` and `release`.  The `/build/debug` directory is for testing and is created when running `yarn build:debug`.
+The `build` directory is created when running `yarn build:release` or `yarn build:debug`.
 
-The `/build/release` directory contains the the `.wasm` file that contains your smart contract logic in binary form. It is to be uploaded to the Koinos Blockchain and created after running `yarn build:release`.
+It has two sub directories, the `debug` and `release`.  The `/build/debug` directory contains the smart contracts used for testing and is created when running `yarn build:debug`.
+
+The `/build/release` directory contains the production smart contract `.wasm` file and is created when running `yarn build:release`. This `.wasm` file is ready to be uploaded to the Koinos Blockchain.
 
 ## Final Notes
 
-Thats it, you should now understand the folder structure of the `koinos-sdk-as-cli` boiler plates made by the `create` command.
+You should now understand the folder structure of the `koinos-sdk-as-cli` boiler plates made by the `create` command.
+

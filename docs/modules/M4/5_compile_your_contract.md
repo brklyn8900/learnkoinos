@@ -1,8 +1,8 @@
 # Compile/Build your Contraact
 
-Once you've finished creating your code and ran all of the tests, its time to build the release version and upload it to the blockchain.
+When you've finished creating your code and completed all of your tests, we can build the release version and upload it to the blockchain.
 
-To begin, build the release version by running the following command:
+For our `hello world` example contract, we'll build the release version by running the following command:
 
 ```
 yarn build:release

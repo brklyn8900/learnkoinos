@@ -32,7 +32,7 @@ If you need to see your wallet address again, you can view it by calling the `ad
 
 ## Bonus
 
-If you are just getting started with Koinos and are trying out our test net, you can grab some free `tKOIN` to interact with the network. Follow the [Using the Discord Faucet](/M0/using-the-faucet) tutorial to get 100 free `tKoin`.
+If you are just getting started with Koinos and are trying out our test net, you can grab some free `tKOIN` to interact with the network. Follow the [Using the Discord Faucet](modules/M1/using-the-faucet) tutorial to get 100 free `tKoin`.
 
 Once you get your `tKOIN` from the fountain, you can query your balance with the `koin.balance_of` command which will display your new balance of 100 `tKOIN`. While it appears as `KOIN`, be assured that it is actually `tKOIN` unless you are connected to the main net RPC and have bought real `KOIN` from an exchange.
 

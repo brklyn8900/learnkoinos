@@ -68,7 +68,7 @@ export default defineConfig({
             { text: "1. Introduction", link: "/modules/M4/1_introduction.md" },
             { text: "2. Installing the SDK", link: "/modules/M4/2_installing_the_sdk.md" },
             { text: "3. The Hello World Project ", link: "/modules/M4/3_hello-world.md" },
-            { text: "4. SDK Folder Structuret", link: "/modules/M4/4_sdk_folder_structure.md" },
+            { text: "4. SDK Folder Structure", link: "/modules/M4/4_sdk_folder_structure.md" },
             { text: "5. Compile Your Contract", link: "/modules/M4/5_compile_your_contract.md" },
             { text: "6. Generating a Wallet", link: "/modules/M4/6_generate-wallet.md" },
             { text: "7. Upload Your Smart Contract via Koinos-CLI", link: "/modules/M4/7_upload-contract.md" },

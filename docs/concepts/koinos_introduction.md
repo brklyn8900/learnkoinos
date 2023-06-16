@@ -4,9 +4,9 @@
 
 The Koinos project was announced on October 8th, 2020 as an ERC-20 token and fully transitioned to it's own main net on November 5th 2022. 
 
-Instead of performing an ICO, the early ERC-20 $KOIN token was only distributed through Proof of Work (PoW) mining on Ethereum. Early supporters who operated a ERC-20 Koinos miner submitted PoW hashes to the ethereum network in return for ERC-20 $KOIN. This is known as the "fair mine" approach.
+Instead of performing an ICO, the early ERC-20 $KOIN token was distributed through Proof of Work (PoW) mining only. Early supporters who ran the ERC-20 Koinos miner submitted PoW hashes to an Ethereum smart contract in return for ERC-20 $KOIN. This is known as the "fair mine" approach.
 
-Anyone could operate a miner which forced the team to participate in mining along side early supporters. The token quickly began trading on uniswap with 100% of liquidity provided by the community.
+Any person could operate a miner, which forced the team to participate in mining along side early supporters. The token quickly began trading on uniswap with 100% of liquidity provided by the community.
 
 ## Characteristics of the Koinos Blockchain
 The Koinos Blockchain has the following characteristics which we will define individually:
@@ -25,30 +25,34 @@ __But why are these characteristics important?__
 
 Koinos is provably decentralized through the implementation of its Proof of Burn (PoB) consensus algorithm. PoB ensures a fair and egalitarian distribution of resources and opportunities within the network, making it difficult for any single party to gain control or manipulate the system.
 
-This consensus algorithm, along with Koinos' modular upgradeability allows for fork-less upgrades to ensure the decentralization is maintained and the network resources remain accessible to a wide range of end-users, developers, and node operators.
+This consensus algorithm, along with Koinos' modular upgradeability allows for fork-less upgrades to ensure that decentralization is maintained and the network resources remain accessible to a wide range of end-users, developers, and node operators.
 
-Nodes can be run by normal computers at home and do not require nor benefit from ASICs or high powered GPUs making the network highly accesible to normal users and increasing network decentralization.
+Nodes do not require specialized hardware and accessible to profiessional and hobbist using typical home computers. 
+
+Koinos does not benefit from the use of ASICs or high powered GPUs making the network highly accesible to normal users thus increasing network decentralization.
 
 ## Permissionless
 
-Anyone may operating a non-consensus node which maintains a full copy of the network state.
+Anyone may operating a non-consensus node which maintains a full copy of the network state. 
 
-Anyone $KOIN token holder may burn $KOIN to operate a Koinos Miner and validate transactions on the network. 
+Any $KOIN token holder may burn $KOIN to power a Koinos mining node and validate transactions on the network in return for $KOIN rewards.
 
-There are no restrictions on who may upload smart contracts to the Koinos blockchain, provided they have sufficent network resources called Mana, a resource available to $KOIN but does not require users to spend $KOIN to acquire. 
+There are no restrictions on who may upload smart contracts to the Koinos blockchain, provided they have sufficent network resources (Mana) to perform the upload. This does not require the consumption of $KOIN making the Koinos smart contracts free to use.
 
 
 ## General Purpose
 
-Koinos uses a Web Assembly Virtual Machine (WASM) and is turing complete. This makes Koinos suitable for a wide range of applications.
+Koinos uses a Web Assembly Virtual Machine (WASM) and is turing complete. This makes Koinos suitable for a wide range of applications, especially games.
 
 ## Layer 1
 
-All transactions are settled on the Koinos blockchain and therefore considered a Layer 1. The Koinos Blockchain is built on the Koinos Blockchain Framework, which can be used to launch variations of Koinos. This framework is considered Layer 0.
+All transactions are settled on the Koinos blockchain and is therefore considered a Layer 1 blockchain. 
+
+The Koinos Blockchain itself is built using the Koinos Blockchain Framework, which is suitable for launching  private enterprise blockchains. This framework is considered Layer 0.
 
 ## High Performance
 
-Koinos has not been fully optimized for performance. There are several planned performance enhancements. However, benchmark performance was a consistent 454 TPS, a finality of 60 blocks and an average block time of 3 seconds.
+Koinos has not been fully optimized for performance however, there are several planned performance improvements. Current benchmark performance is 454 transactions per a block with, a finality of 60 blocks and an average block time of 3 seconds.
 
 
 ## Microservice Based
