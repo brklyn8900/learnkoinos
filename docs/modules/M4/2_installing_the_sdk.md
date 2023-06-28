@@ -5,15 +5,13 @@ Before we install the SDK, we must ensure that the development environment has a
 
 We strongly recommend using a Mac or Linux to develop smart contracts. While all of these steps can be done on a Windows machine, it requires significantly more troubleshooting to set up the environment.
 
-## Step 1: Install NodeJS and Protobuf
+## Step 1: Install NodeJS
 
-### NodeJS
-
-Follow the instructions at [the NodeJS website](https://nodejs.org/) for the installation guide specific to your machine. 
+Install [NodeJS](https://nodejs.org/) for your specific machine. 
 
 ___Be aware that you may need to use `nvm` or the node version manager to set the different versions of NodeJS. We have tested to ensure that version 16.13.1 works with the SDK.___
 
-__Notes for Installation on Mac M1:__
+__Notes for Installation on Mac Silicone (M1/M2):__
 
 If find an error with `NodeJS` when compiling smart contracts that appears similar to this output:
 ```
@@ -26,27 +24,43 @@ Then try running this command:
 sudo chown -R 501:20 "/Users/{username}/.npm"
 ```
 
-### Google Protocol Buffers
+## Step 2: Install Google Protocol Buffers
+
 `Protobuf` is necessary to build `.proto` files for Koinos Smart Contracts. 
 
 Follow the instructions at the [Protobuf github repo](https://github.com/protocolbuffers/protobuf) for the binarys specific to your machine.
 
-For __Intel Macs__ using homebrew package manager, you may easily install protobuf for your Intel Mac using the following command:
+### Intel Macs:
+Use homebrew package manager to easily install protobuf for your Intel Mac using the following command:
 ```
 brew install protobuf
 ```
 
-For __Mac M1__ Machines using homebrew package manager, you may easily install protobuf for your M1 silicone chip using the following command:
+### Apple Silicon M1/M2:
+
+Use homebrew package manager to easily install protobuf for your Apple Silicone Machine, you may easily install protobuf for your M1 silicone chip using the following command:
 ```
 arch -arm64 brew install protobuf
 ```
 
-For __Linux machines__, you may easily install protobuf for your machine using the following command:
+### Linux:
+You may easily install protobuf for your machine using the following command:
 ```
 sudo apt install protobuf-compiler
 ```
 
-After installation, verify protobuf is installed using the following command:
+### Windows:
+
+We've found the following guide to be useful for installing `Protobuf` on windows, just be sure to use the latest version of `protobuff`:
+
+[How to Install Protocol Buffers on Windows](https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/)
+
+
+### Verify your installation:
+
+After installation, you may verify protoc is installed using the following commands regardless which machine you are using:
+
+
 ```
 protoc --version
 ```
@@ -60,13 +74,15 @@ which protoc
 ```
 The output should match the directory of your shell, otherwise be sure to include the path of your installation into your specific shell and try again.
 
+
+
 __You are now ready to install the `koinos-sdk-as-cli`!__
 
-# Step 2: Install the SDK
+# Step 3: Install the Official Koinos Assembly Script SDK
 
 We will use Yarn Package Manager to perform the installation, but NPM will work as well. 
 
-Install the Koinos AssemblyScript CLI by running this command:
+Install the Koinos AssemblyScript CLI by running this command in your terminal:
 
 ```
 yarn global add @koinos/sdk-as-cli

@@ -2,23 +2,21 @@
 
 Mana is a property of the $KOIN token.
 
-___Note: Mana on Koinos has no relationship with the decentraland token known as $MANA!___
+### NOTE: MANA HAS NO RELATIONSHIP WITH DECENTRALAND! MANA IS NOT A TOKEN!
 
-The name Mana has deep roots, but most users are aware of the term from video games where users have a rate limited ability.
+The name Mana has deep roots, but most users are aware of the term from video games where users have a rate limited ability to run, recover heath, cast magic spells and so forth.
 
-In games like Diablo, it's how frequently they can cast various magic spells. In games like Call of Duty, its the ability to recover health after getting shot and so forth. In both cases, Mana limits the usage of an otherwise unlimited resource by requiring the user to "wait it out".
+When the ability is limited, the user must "wait it out".
+
+On Koinos, Mana is the ability to use the blockchain without losing tokens to fees. Their usage is rate limited based on how much Mana they have. The more $KOIN they hold, the more Mana they have.
 
 ## Understanding Mana With The Car Anology
 
-If you don't play video games, we can use what we already know to understand Mana. Let's look at something we're all familiar with: cars.
+A convenient way to think about Mana is comparing it to an electric vehicle. 
 
-When we drive our normal gas powered car, we consume gas which will eventually run out need refueling. Since we cannot produce our own gasoline, the usefulness of our car is limited to our accesss to gas stations. 
+When someone drivse a typical gas powered car, they consume gas which needs periodic refueling. The larger the gas tank, the further they can drive, but they'll need to buy more gas. This is the typical Ethereum fee based model. Additionally, the cost of gas (priced in ETH) varies, making the model hard to manage for users.
 
-In blockchain, this is how gas fees typically work. The user will always seek to refuel their token supply so they can continuously use the blockchain.
-
-Electric cars on the other hand, can be charged by renewable energy and can be fully self sustainable if we own our own generators powered by solar or wind. 
-
-Holding $KOIN is identical to owning the whole production cycle of renewable energy, including the battery. This is how Mana works. Holding $KOIN will always give you access to Mana and you will always be able to generate more Mana.The greater their needs, the bigger their $KOIN holding should be, much like having a bigger battery for more range.
+Electric cars on the other hand are powered by electricity which can come from sustainable renewable sources. Bigger batteries allow us to drive further. This is the Koinos zero-fee model. Additionally, if we produce our own renewable energy, the cost of operation is zero making the model easy to manage for users.
 
 When comparing Mana to Gas, the advantages of a Mana model is clearly more beneficial to the end user than Gas.
 

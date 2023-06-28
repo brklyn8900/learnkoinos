@@ -182,6 +182,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Proof of Burn", link: "/concepts/koinos_pob.md" },
+            { text: "Security of PoB", link: "/concepts/koinos_pob_security.md"},
             { text: "Calculating Block Reward", link: "/concepts/koinos_block-reward.md" },
             { text: "Calculating Mining Yield", link: "/concepts/koinos_yield.md" },
           ],

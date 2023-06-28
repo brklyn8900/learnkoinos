@@ -13,3 +13,8 @@ As of April 2023, there are three interfaces being developed to make this featur
 1. __Koinos Account Protocol__ is building `Mana Stations` which give KAP Usernames access to Mana automatically. This helps with anonymity since there is no trace of tokens being transfered and with accessibility since KAP offers a free username tier. [More On KAP](https://kap.domains)
 
 2. __Koinos Pro__ is building `Mana Faucet` which gives dApps who subscribe to Koinos Pro access to Mana for their users. [More on Koinos Pro](https://koinos.io)
+
+
+# Incentives to share Mana
+
+There is no direct incentive to share Mana and this was purposely done to ensure maximum flexibility. Free market mechanics dictate how one can access Mana. If Mana is free, than the provider is likely benefiting in other ways. If Mana has a cost, the user has a choice to buy $KOIN or pay for access which results in Mana providers competiting to offer the lowest price possible.
