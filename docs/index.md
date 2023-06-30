@@ -4,7 +4,7 @@ layout: home
 
 hero:
   # name: "Start here"
-  text: "Start here"
+  text: "Quick Start"
 # actions:
 #     - theme: brand
 #       text: Read The Blog
@@ -14,30 +14,18 @@ hero:
 #   link: /api-examples
 features:
   - title: Read The Blog
-    details: Read our latest blog posts and tutorials!
+    details: Read our latest blog posts!
     link: /articles/
 
-  - title: Developers Start here
+  - title: Setting up the developer environment
     details: Install the SDK and start building on Koinos Today!
-    link: /landing/dev.md
+    link: /modules/M4/1_introduction.md
 
   - title: Launching a Koinos Mining Node
     details: Fire up a Mining Node And Begin Earning $KOIN!
-    link: /landing/mining.md
+    link: /modules/M3/1_introduction.md
 
-  - title: The 7 Day Challenge!
-    details: Build a complete dApp in 7 Days!
-    link: /7_day_dapp/1.0_introduction.md
-
-  - title: Launch your NFT Collection On Koinos!
-    details: Build an NFT collection contract and sell it on Kollections!
-    link: /landing/nft.md
-
-  - title: What is Koinos
-    details: What is the Koinos blockchain? and why is it special?
+  - title: Koinos Concepts!
+    details: Learn the basics to the Koinos Blockchain!
     link: /concepts/index.md
-
-  - title: The Koinos CLI
-    details: Find out how to use the Koinos CLI to interact with the Koinos blockchain!
-    link: /landing/mining.md
 ---

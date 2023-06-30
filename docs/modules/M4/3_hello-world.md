@@ -1,15 +1,12 @@
 
-# Setting Up your Hello World Contract
+# Create Your Hello World Project directory
 
-Every `koinos-sdk-as` project begins by creating the project folder. To do this, we'll use the `koinos-sdk-as-cli` and the `create` command.
-
-Let's create a project called `myawesomecontract`. To begin, run the following command:
+Every `koinos-sdk-as` project begins by creating the project folder. Let's use `create` to start a project called `myawesomecontract`. To begin, run the following command:
 
 ```
 koinos-sdk-as-cli create myawesomecontract
 ```
-
-The `create` command will create a folder called `myawesomecontract` (or whatever argument you passed to the `create` command). The output should look something like this:
+The output should look something like this:
 
 ```
 Generating contract at "/Users/tutorial/myawesomecontract"...
@@ -62,7 +59,7 @@ Done in 3.28s.
 
 After running through this process, you now have a project development folder that has been tested to function correctly. 
 
-To begin developing your smart contract, you may edit the following files:
+The core of your smart contract development work will involve the following files:
 
 Protobuf file: `\myawesomecontract\assembly\proto\myawesomecontract.proto`.
 

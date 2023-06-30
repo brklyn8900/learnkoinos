@@ -5,20 +5,17 @@ Lets explore the folder structure of our `myawesomecontract` project. It will be
 ![file structure image](/images/vscode-file-structure-image.png "File structure")
 
 ## The `abi` directory:
-ABI stands for Application Binary Interface. While it is not necessary to have an `.abi` file, it is strongly recommended to include this in your project so others can easily interact with your smart contract.
-
-This directory contains your `.abi` file. Initially this folder is empty, however after running `yarn build:release`. the `.abi` file is created.
-
+ABI stands for Application Binary Interface. The `.abi` file is automatically generated for you when building the contract however you do not need to upload it for your smart contract to work. Without the ABI file, it won't be possible for others to easily interact with your smart contract.
 
 ## The  `assembly` directory:
-All of the smart contract-related code lives in the `assembly` folder. The vast majority of the development work will be focused here.
+The vast majority of the development work will be focused in the `assembly` directory.
 
 ![assembly folder image](/images/assembly-folder-image.png "Assembly directory")
 
-- `__tests__` is reserved for the contract unit tests.
-- `proto` is where you will develop your smart contract's proto files.
-- `index.ts` contains the logical entry point of the contract. It is generated for your automatically.
-- `Myawesomecontract.boilerplate.ts` contains the auto-generated boilerplate based on your proto file.  This file should be copied and the phrase `.boilerplate` should be removed. The new file should be used to deveop your produciton level code. Each time you build your contract, this file will be replaced so never code directly on this boiler plate file.
+- `__tests__` develop your unit tests in this directory.
+- `proto` develop your protobuf defintions in this directory.
+- `index.ts` contains the logical entry point of the contract. It is generated for your automatically when building your contract.
+- `Myawesomecontract.boilerplate.ts` contains the auto-generated boilerplate based on your proto file defintions.  This file should be copied and the phrase `.boilerplate` should be removed. The new file is where you will develop your production level code. Each time you build your contract, this file will be replaced so never code directly on this boiler plate file.
 - `Myawesomecontract.ts` is created by the user (see above).
 - `tsconfig.json` tells the IDE what types are available in AssemblyScript, AS is like TypeScript but with WebAssembly types, it is automatically generated.
 
