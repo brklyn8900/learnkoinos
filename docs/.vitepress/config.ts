@@ -24,7 +24,7 @@ export default defineConfig({
           text: "Module 1: The koinos-cli",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M1/1_introduction.md" },
+            { text: "1. Introduction to Koinos CLI", link: "/modules/M1/1_introduction.md" },
             { text: "2. Installation", link: "/modules/M1/2_installation.md" },
             { text: "3. Generating a New Wallet", link: "/modules/M1/3_new-wallet.md" },
             { text: "4. Sending a token", link: "/modules/M1/4_send-token.md" },
@@ -39,7 +39,7 @@ export default defineConfig({
           text: "Module 2: Managing Mana & RC Limits",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M2/1_introduction.md" },
+            { text: "1. Introduction to Managing Mana & RC Limits", link: "/modules/M2/1_introduction.md" },
             { text: "2. What is Mana?", link: "/modules/M2/2_what-is-mana.md" },
             { text: "3. Hold $KOIN get Mana", link: "/modules/M2/3_hold_koin_get_mana.md" },
             { text: "4. Mana Sharing ", link: "/modules/M2/4_mana-sharing.md" },
@@ -59,14 +59,14 @@ export default defineConfig({
             { text: "3. Inital Setup ", link: "/modules/M3/3_init-setup.md" },
             { text: "4. Starting & Syncing", link: "/modules/M3/4_sync.md" },
             { text: "5. Block_producer Configuration", link: "/modules/M3/5_config.md" },
-            { text: "6. Maintenance", link: "/modules/M3/6_maintenance.md" },
+            // { text: "6. Maintenance", link: "/modules/M3/6_maintenance.md" },
           ],
         },
         {
           text: "Module 4: The Smart Contract SDK",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M4/1_introduction.md" },
+            { text: "1. Introduction to The Smart Contract SDK", link: "/modules/M4/1_introduction.md" },
             { text: "2. Installing the SDK", link: "/modules/M4/2_installing_the_sdk.md" },
             { text: "3. The Hello World Project ", link: "/modules/M4/3_hello-world.md" },
             { text: "4. SDK Folder Structure", link: "/modules/M4/4_sdk_folder_structure.md" },
@@ -80,7 +80,7 @@ export default defineConfig({
           text: "Module 5: Launch an NFT on Koinos",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M5/1_introduction.md" },
+            { text: "1. Introduction to Launch an NFT on Koinos", link: "/modules/M5/1_introduction.md" },
             { text: "2. Clone The Repo", link: "/modules/M5/2_init-setup.md" },
             { text: "3. Customize The Contract", link: "/modules/M5/3_modify.md" },
             { text: "4. Compile and Build", link: "/modules/M5/4_compile.md" },
@@ -91,7 +91,7 @@ export default defineConfig({
           text: "Module 6: Launch a Token on Koinos",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M6/1_introduction.md" },
+            { text: "1. Introduction to Launch a Token on Koinos", link: "/modules/M6/1_introduction.md" },
             { text: "2. Clone the Starter Contract", link: "/modules/M6/2_init-setup.md" },
             { text: "3. Modify The Contract", link: "/modules/M6/3_modify.md" },
             { text: "4. Compile and Deploy", link: "/modules/M6/4_compile.md" },
@@ -102,7 +102,7 @@ export default defineConfig({
           text: "Module 7: Managing Storage Space on the blockchain",
           collapsed: true,
           items: [
-            { text: "1. Introduction", link: "/modules/M7/1_introduction.md" },
+            { text: "1. Introduction to Managing Storage", link: "/modules/M7/1_introduction.md" },
             { text: "2. Setting up our Database", link: "/modules/M7/2_setup.md" },
           ],
         },
@@ -112,7 +112,7 @@ export default defineConfig({
           text: "Day 1: Introduction to Koinos and Blockchain Basics",
           collapsed: true,
           items: [
-            { text: "Introduction", link: "/7_day_dapp/1.0_introduction.md" },
+            { text: "Blockchain Basics", link: "/7_day_dapp/1.0_introduction.md" },
             { text: "Plan", link: "/7_day_dapp/1.1_planning.md" },
             { text: "Architect", link: "/7_day_dapp/1.2_architecture.md" },
           ],
@@ -182,7 +182,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Proof of Burn", link: "/concepts/koinos_pob.md" },
-            { text: "Security of PoB", link: "/concepts/koinos_pob_security.md"},
+            { text: "Security of PoB", link: "/concepts/koinos_pob_security.md" },
             { text: "Calculating Block Reward", link: "/concepts/koinos_block-reward.md" },
             { text: "Calculating Mining Yield", link: "/concepts/koinos_yield.md" },
           ],
