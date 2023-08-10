@@ -106,6 +106,13 @@ export default defineConfig({
             { text: "2. Setting up our Database", link: "/modules/M7/2_setup.md" },
           ],
         },
+        {
+          text: "Module 8: Simple Todo List",
+          collapsed: true,
+          items: [
+            { text: "1. Todos Smart Contract", link: "/modules/M8/1_todos.md" },
+          ],
+        },
       ],
       '/7_day_dapp/': [
         {
@@ -182,7 +189,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Proof of Burn", link: "/concepts/koinos_pob.md" },
-            { text: "Security of PoB", link: "/concepts/koinos_pob_security.md"},
+            { text: "Security of PoB", link: "/concepts/koinos_pob_security.md" },
             { text: "Calculating Block Reward", link: "/concepts/koinos_block-reward.md" },
             { text: "Calculating Mining Yield", link: "/concepts/koinos_yield.md" },
           ],
