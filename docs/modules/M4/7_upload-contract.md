@@ -8,7 +8,7 @@ __Remember, if you following this lesson on testnet, use the testnet `koinosrc` 
 From `koinos-cli` open your new wallet address and enter the following command to upload the `.wasm` and `.abi` files we created previously:
 
 ```
-upload myawesomecontract/build/release/contract.asm myawesomecontract/abi/myawesomecontract.abi
+upload myawesomecontract/build/release/contract.wasm myawesomecontract/abi/myawesomecontract.abi
 ```
 
 You will get the following as a response that includes the transaction ID:
