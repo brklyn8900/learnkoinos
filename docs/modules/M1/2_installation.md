@@ -91,9 +91,6 @@ koin.balance_of                           - Checks the balance at an address
 koin.total_supply                         - Checks the token total supply
 koin.transfer                             - Transfers the token
 list                                      - List available commands
-name_service.get_address                  - Gets the address of a contract registered with the name service
-name_service.get_name                     - Gets the name of a contract registered with the name service
-name_service.set_record                   - Sets a name record in the name service
 nonce                                     - Set nonce for transactions. 'auto' will default to querying for nonce. Blank nonce to view
 open                                      - Open a wallet file (unlock also works)
 payer                                     - Set the payer address for transactions. 'me' will default to current wallet. Blank address to view
