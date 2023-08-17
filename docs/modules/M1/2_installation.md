@@ -34,12 +34,12 @@ If you are working on ___The Harbinger Test Net___ you will need to point your w
 
 ```
 connect https://harbinger-api.koinos.io/
-register_token koin 19JntSm8pSNETT9aHTwAUHC5RMoaSmgZPJ
-register_token vhp 	1JZqj7dDrK5LzvdJgufYBJNUFo88xBoWC8
-register pob 198RuEouhgiiaQm7uGfaXS6jqZr6g6nyoR
-register name_service 1AM1c73tDNTc24KYqYvSHmoZ2C7oe4DZhh
-register resources 1BXi4SX4jjbaLzcRbmRKtpMQbQmFYnmX9Z
-register governance 147aWsRsveXK4jwz5bdLumJv3yfF95woSc
+register_token koin 1FaSvLjQJsCJKq5ybmGsMMQs8RQYyVv8ju
+register_token vhp 17n12ktwN79sR6ia9DDgCfmw77EgpbTyBi
+register pob 1MAbK5pYkhp9yHnfhYamC3tfSLmVRTDjd9
+register name_service 13NQnca5chwpKm4ebHbvgvJmXrsSCTayDJ
+register resources 16X6cKyqiT8EzPEksRJxXcqMnHMMm9Vxct
+register governance 17MjUXDCuTX1p9Kyqy48SQkkPfKScoggo
 ```
 
 ___💡 Pro tip: Create two folders for `koinos-cli`! One with a `.koinosrc` file specific for test net and another for main net!___
