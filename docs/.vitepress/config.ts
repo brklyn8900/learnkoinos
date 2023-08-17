@@ -171,6 +171,10 @@ export default defineConfig({
               text: "2. Todos Front End",
               link: "/modules/M8/2_todos_front_end.md",
             },
+            {
+              text: "3. Advanced Concepts",
+              link: "/modules/M8/3_advanced_concepts.md",
+            }
           ],
         },
       ],
