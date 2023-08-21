@@ -18,4 +18,7 @@ Your `.abi` file is located in the following directory:
 /collection-base/abi/collections.abi
 ```
 
-With these two files, generate a koinos wallet with `koinos CLI` and deploy as shown in Lesson 1.
+With these two files, generate a koinos wallet with `koinos CLI` and deploy:
+```
+upload collection-base/build/release/contract.wasm collection-base/abi/collections.abi
+```
