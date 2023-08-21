@@ -1,6 +1,6 @@
 # Customize 
 
-Customize the specifics of the NFT project by first modifying `token/assembly/Token.ts`. 
+Customize the specifics of the Token project by first modifying `token/assembly/Token.ts`. 
 
 Define the following:
 `_name:` The Name of your Token
