@@ -1,6 +1,6 @@
 # Launching an NFT collection
 
-This guide allows users to manually launch an NFT collection based on current KCS-1 (Koinos Contract Standard) for NFTs. More information can be found directly on the [Kollection Docs](https://docs.kollection.app/docs/developers/intro)
+This guide allows users to manually launch an NFT collection based on current [KCS-2](https://github.com/koinos/koinos-contract-standards/blob/master/KCSs/kcs-2.md) (Koinos Contract Standard) for NFTs. More information can be found directly on the [Kollection Docs](https://docs.kollection.app/docs/developers/intro)
 
 The repo is built by the Kollections NFT team and is based on the `koinos-sdk-as`
 

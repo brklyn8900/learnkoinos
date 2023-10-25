@@ -33,13 +33,11 @@ The `connect` command at the top connects you to the ___main net RPC node___ pro
 If you are working on ___The Harbinger Test Net___ you will need to point your wallet to test net nodes and testnet smart contracts. We suggest you replace the entire contents of your `.koinosrc` file with the following information:
 
 ```
-connect https://harbinger-api.koinos.io/
-register_token koin 1FaSvLjQJsCJKq5ybmGsMMQs8RQYyVv8ju
-register_token vhp 17n12ktwN79sR6ia9DDgCfmw77EgpbTyBi
-register pob 1MAbK5pYkhp9yHnfhYamC3tfSLmVRTDjd9
-register name_service 13NQnca5chwpKm4ebHbvgvJmXrsSCTayDJ
-register resources 16X6cKyqiT8EzPEksRJxXcqMnHMMm9Vxct
-register governance 17MjUXDCuTX1p9Kyqy48SQkkPfKScoggo
+connect https://harbinger-api.koinos.io
+register koin 19JntSm8pSNETT9aHTwAUHC5RMoaSmgZPJ
+register pob 198RuEouhgiiaQm7uGfaXS6jqZr6g6nyoR
+register vhp 1JZqj7dDrK5LzvdJgufYBJNUFo88xBoWC8 
+register name_service 1AM1c73tDNTc24KYqYvSHmoZ2C7oe4DZhh
 ```
 
 ___💡 Pro tip: Create two folders for `koinos-cli`! One with a `.koinosrc` file specific for test net and another for main net!___
