@@ -29,14 +29,6 @@ to
 ```
 producer: <insert wallet address here>
 ```
-Next, unhash the private key field as shown:
-```
-#private-key-file:private.key
-```
-to
-```
-private-key-file:private.key
-```
 Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
 
 ![config.yml_setup](images/3_node.png)
@@ -54,14 +46,6 @@ This will open the file in your editor where you will need to edit several field
 to
 ```
 producer: <insert wallet address here>
-```
-Next, unhash the private key field as shown:
-```
-#private-key-file:private.key
-```
-to
-```
-private-key-file:private.key
 ```
 Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
 
