@@ -29,14 +29,6 @@ to
 ```
 producer: <insert wallet address here>
 ```
-Next, unhash the private key field as shown:
-```
-#private-key-file:private.key
-```
-to
-```
-private-key-file:private.key
-```
 Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
 
 ![config.yml_setup](images/3_node.png)
@@ -55,14 +47,6 @@ to
 ```
 producer: <insert wallet address here>
 ```
-Next, unhash the private key field as shown:
-```
-#private-key-file:private.key
-```
-to
-```
-private-key-file:private.key
-```
 Your block_producer field should look like this, but with your wallet address inserted into the `producer` section. This image intentionally left  the `producer` filed blank.
 
 ![config.yml_setup](images/3_node.png)
@@ -74,7 +58,7 @@ Your block_producer field should look like this, but with your wallet address in
 Inside your `~./koinos` directory, is a file called `env.example`.  Make a copy of this file and rename it to `.env`. If using command line, use the following command:
 
 ```
-cp env.example env
+cp env.example .env
 ```
 
 The `.env` file is used to manage the directory of your Koinos Node database files. The remainder of this guide assumes you use the default home directory. No further changes to this file is necessary.
